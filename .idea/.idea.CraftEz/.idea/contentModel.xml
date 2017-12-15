@@ -15,6 +15,8 @@
         <e p="Scripts" t="Include">
           <e p="Data.cs" t="Include" />
           <e p="Element.cs" t="Include" />
+          <e p="GameController.cs" t="Include" />
+          <e p="Generator.cs" t="Include" />
           <e p="PlayerConroller.cs" t="Include" />
           <e p="Timer.cs" t="Include" />
         </e>

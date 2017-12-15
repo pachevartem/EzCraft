@@ -13,13 +13,16 @@ namespace Ez
 	/// </summary>
 	public class Data : MonoBehaviour
 	{
-
+		public int CountColor = 6; //TODO: читаем из файлв при инициализации приложения 6 для костылей
+		
 		public List<Color> Colors;  //TODO: тоже читать из файла
 
 		public List<Material> OwnMaterils; //TODO: надо будет заменить на список цветов погруженных из документа
 		
 		public static Data Instanse;
 
+		
+		
 		#region Singleton
 
 		void Singleton()
@@ -35,6 +38,8 @@ namespace Ez
 		}
 		#endregion
 	
+		
+		
 		
 		private void Awake()
 		{
