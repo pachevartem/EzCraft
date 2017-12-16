@@ -25,14 +25,48 @@ namespace Ez
         
         private void Update()  // TODO: может надо сделать FixedUpdate() пока хер его
         {
-            if (Input.touchCount<1)
+#if UNITY_EDITOR
+            UnityEditorController();
+#endif
+
+#if UNITY_ANDROID
+            MobileController();
+#endif
+        }
+
+        void UnityEditorController()
+        {
+            
+            if (Input.GetMouseButtonDown(0))  // нажал на левую кнопку мыши
+            {
+                if (GetObject(Input.mousePosition))
+                {
+                    isGrabbing = true;   
+                }
+            }
+            if (Input.GetMouseButton(0))  // держишь левую кнопку мыши
+            {
+                if (isGrabbing)
+                {
+                    Moved(Input.mousePosition);                    
+                }
+            }
+            if (Input.GetMouseButtonUp(0))  // отпустил левую кнопку мыши 
+            {
+                ResetFinger();
+            }
+        }
+
+        void MobileController()
+        {
+             if (Input.touchCount<1)
                         return;
 
             #region Обработка нажатий пальцев
             switch (Input.GetTouch(0).phase)    //TODO: надо ли менять на конструкцию If() тоже не ясно, до рефакторинга так нагляднее.
             {
                 case TouchPhase.Began: // Палец только что прикоснулся к экрану.
-                    if (GetObject())
+                    if (GetObject(Input.GetTouch(0).position))
                     {
                         isGrabbing = true;   
                     }
@@ -40,13 +74,13 @@ namespace Ez
                 case TouchPhase.Moved: //Палец передвинулся по экрану.
                     if (isGrabbing)
                     {
-                        Moved();
+                        Moved(Input.GetTouch(0).position);
                     }
                     break;
                 case TouchPhase.Stationary: // Палец прикоснулся к экрану, но с последнего кадра не двигался.
                     if (isGrabbing)
                     {
-                        Moved();
+                        Moved(Input.GetTouch(0).position);
                     }
                     break;
                 case TouchPhase.Ended: // Палец только что оторван от экрана. Это последняя фаза нажатий.
@@ -81,16 +115,15 @@ namespace Ez
                 tapCount = 0;
             }
             #endregion
-            
         }
-        
+
         /// <summary>
         /// Возвращает есть ли объект под пальцем в момент нажатия
         /// </summary>
         /// <returns></returns>
-        bool GetObject()  
+        bool GetObject(Vector3 position)  
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+            Ray ray = Camera.main.ScreenPointToRay(position);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, 10, CollisionDetected))
             {
@@ -116,11 +149,11 @@ namespace Ez
         }
         
         /// <summary>
-        /// Перемещение объекта
+        /// Перемещение объекта в позицию мыши или нажатия пальца
         /// </summary>
-        void Moved()
+        void Moved(Vector3 position)
         {
-            Gragabble.position = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
+            Gragabble.position = Camera.main.ScreenToWorldPoint(position);
         }
 
 

@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5fcbbf4a-e555-4eeb-8a48-83c842ef88ce" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.CraftEz/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CraftEz/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/GameCircle.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/GameCircle.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scence/main.unity" afterPath="$PROJECT_DIR$/Assets/Scence/main.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Element.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Element.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Generator.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Generator.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerConroller.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerConroller.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,31 +53,38 @@
       <file leaf-file-name="PlayerConroller.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerConroller.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+            <state relative-caret-position="-180">
+              <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding>
-                <marker date="1513382662000" expanded="true" signature="7:92" ph="..." />
-                <marker date="1513382662000" expanded="true" signature="106:4093" ph="{...}" />
-                <marker date="1513382662000" expanded="true" signature="158:4091" ph="{...}" />
-                <marker date="1513382662000" expanded="true" signature="578:2976" ph="{...}" />
-                <marker date="1513382662000" expanded="false" signature="670:2178" ph="Обработка нажатий пальцев" />
-                <marker date="1513382662000" expanded="true" signature="839:2155" ph="{...}" />
-                <marker date="1513382662000" expanded="true" signature="971:1061" ph="{...}" />
-                <marker date="1513382662000" expanded="true" signature="1195:1272" ph="{...}" />
-                <marker date="1513382662000" expanded="true" signature="1445:1522" ph="{...}" />
-                <marker date="1513382662000" expanded="true" signature="2204:2953" ph="DoubleTap" />
-                <marker date="1513382662000" expanded="true" signature="2445:2835" ph="{...}" />
-                <marker date="1513382662000" expanded="true" signature="2521:2614" ph="{...}" />
-                <marker date="1513382662000" expanded="true" signature="2658:2821" ph="{...}" />
-                <marker date="1513382662000" expanded="true" signature="2872:2930" ph="{...}" />
-                <marker date="1513382662000" expanded="false" signature="2994:3129" ph="/// Возвращает есть ли объект под пальцем в момент нажатия ... " />
-                <marker date="1513382662000" expanded="false" signature="3156:3541" ph="{...}" />
-                <marker date="1513382662000" expanded="true" signature="3344:3505" ph="{...}" />
-                <marker date="1513382662000" expanded="false" signature="3551:3626" ph="/// Возвращает объект на место ... " />
-                <marker date="1513382662000" expanded="false" signature="3653:3863" ph="{...}" />
-                <marker date="1513382662000" expanded="true" signature="3691:3743" ph="{...}" />
-                <marker date="1513382662000" expanded="false" signature="3881:3949" ph="/// Перемещение объекта ... " />
-                <marker date="1513382662000" expanded="true" signature="3970:4083" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="7:92" ph="..." />
+                <marker date="1513437266000" expanded="true" signature="106:5027" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="158:5025" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="578:717" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="755:1391" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="854:1012" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="920:998" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="1083:1247" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="1129:1233" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="1322:1381" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="1424:3888" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="1517:3103" ph="Обработка нажатий пальцев" />
+                <marker date="1513437266000" expanded="true" signature="1686:3080" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="1844:1934" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="2068:2171" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="2344:2447" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="3129:3878" ph="DoubleTap" />
+                <marker date="1513437266000" expanded="true" signature="3370:3760" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="3446:3539" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="3583:3746" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="3797:3855" ph="{...}" />
+                <marker date="1513437266000" expanded="false" signature="3898:4033" ph="/// Возвращает есть ли объект под пальцем в момент нажатия ... " />
+                <marker date="1513437266000" expanded="true" signature="4076:4443" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="4246:4407" ph="{...}" />
+                <marker date="1513437266000" expanded="false" signature="4453:4528" ph="/// Возвращает объект на место ... " />
+                <marker date="1513437266000" expanded="false" signature="4555:4765" ph="{...}" />
+                <marker date="1513437266000" expanded="true" signature="4593:4645" ph="{...}" />
+                <marker date="1513437266000" expanded="false" signature="4783:4885" ph="/// Перемещение объекта в позицию мыши или нажатия пальца ... " />
+                <marker date="1513437266000" expanded="true" signature="4922:5017" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -251,6 +253,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5fcbbf4a-e555-4eeb-8a48-83c842ef88ce" name="Default" comment="" />
@@ -258,12 +263,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513332274694</updated>
-      <workItem from="1513332277052" duration="20819000" />
+      <workItem from="1513332277052" duration="22831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20819000" />
+    <option name="totallyTimeSpent" value="22831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -278,18 +283,19 @@
     <frame x="0" y="22" width="1920" height="1021" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17891374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10583153" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10583153" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17891374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14254859" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -571,31 +577,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerConroller.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+        <state relative-caret-position="-180">
+          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding>
-            <marker date="1513382662000" expanded="true" signature="7:92" ph="..." />
-            <marker date="1513382662000" expanded="true" signature="106:4093" ph="{...}" />
-            <marker date="1513382662000" expanded="true" signature="158:4091" ph="{...}" />
-            <marker date="1513382662000" expanded="true" signature="578:2976" ph="{...}" />
-            <marker date="1513382662000" expanded="false" signature="670:2178" ph="Обработка нажатий пальцев" />
-            <marker date="1513382662000" expanded="true" signature="839:2155" ph="{...}" />
-            <marker date="1513382662000" expanded="true" signature="971:1061" ph="{...}" />
-            <marker date="1513382662000" expanded="true" signature="1195:1272" ph="{...}" />
-            <marker date="1513382662000" expanded="true" signature="1445:1522" ph="{...}" />
-            <marker date="1513382662000" expanded="true" signature="2204:2953" ph="DoubleTap" />
-            <marker date="1513382662000" expanded="true" signature="2445:2835" ph="{...}" />
-            <marker date="1513382662000" expanded="true" signature="2521:2614" ph="{...}" />
-            <marker date="1513382662000" expanded="true" signature="2658:2821" ph="{...}" />
-            <marker date="1513382662000" expanded="true" signature="2872:2930" ph="{...}" />
-            <marker date="1513382662000" expanded="false" signature="2994:3129" ph="/// Возвращает есть ли объект под пальцем в момент нажатия ... " />
-            <marker date="1513382662000" expanded="false" signature="3156:3541" ph="{...}" />
-            <marker date="1513382662000" expanded="true" signature="3344:3505" ph="{...}" />
-            <marker date="1513382662000" expanded="false" signature="3551:3626" ph="/// Возвращает объект на место ... " />
-            <marker date="1513382662000" expanded="false" signature="3653:3863" ph="{...}" />
-            <marker date="1513382662000" expanded="true" signature="3691:3743" ph="{...}" />
-            <marker date="1513382662000" expanded="false" signature="3881:3949" ph="/// Перемещение объекта ... " />
-            <marker date="1513382662000" expanded="true" signature="3970:4083" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="7:92" ph="..." />
+            <marker date="1513437266000" expanded="true" signature="106:5027" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="158:5025" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="578:717" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="755:1391" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="854:1012" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="920:998" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="1083:1247" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="1129:1233" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="1322:1381" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="1424:3888" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="1517:3103" ph="Обработка нажатий пальцев" />
+            <marker date="1513437266000" expanded="true" signature="1686:3080" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="1844:1934" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="2068:2171" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="2344:2447" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="3129:3878" ph="DoubleTap" />
+            <marker date="1513437266000" expanded="true" signature="3370:3760" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="3446:3539" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="3583:3746" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="3797:3855" ph="{...}" />
+            <marker date="1513437266000" expanded="false" signature="3898:4033" ph="/// Возвращает есть ли объект под пальцем в момент нажатия ... " />
+            <marker date="1513437266000" expanded="true" signature="4076:4443" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="4246:4407" ph="{...}" />
+            <marker date="1513437266000" expanded="false" signature="4453:4528" ph="/// Возвращает объект на место ... " />
+            <marker date="1513437266000" expanded="false" signature="4555:4765" ph="{...}" />
+            <marker date="1513437266000" expanded="true" signature="4593:4645" ph="{...}" />
+            <marker date="1513437266000" expanded="false" signature="4783:4885" ph="/// Перемещение объекта в позицию мыши или нажатия пальца ... " />
+            <marker date="1513437266000" expanded="true" signature="4922:5017" ph="{...}" />
           </folding>
         </state>
       </provider>
