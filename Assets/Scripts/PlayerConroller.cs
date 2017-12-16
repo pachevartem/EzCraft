@@ -39,9 +39,10 @@ namespace Ez
             
             if (Input.GetMouseButtonDown(0))  // нажал на левую кнопку мыши
             {
+                
                 if (GetObject(Input.mousePosition))
                 {
-                    isGrabbing = true;   
+                    isGrabbing = true;
                 }
             }
             if (Input.GetMouseButton(0))  // держишь левую кнопку мыши
@@ -55,6 +56,29 @@ namespace Ez
             {
                 ResetFinger();
             }
+            
+            #region DoubleTap  
+            // TODO: ВОт это гавно тоже надо сделать универсальным
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);  //TODO: надо ли постоянно выпускать лучь или нет. Хер его (потом зарефакторим)
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit, 10, CollisionDetected) && Input.GetMouseButtonUp(0))
+            {
+                tapCount++;
+                if (tapCount ==1)
+                {
+                    newTime = Time.time + timeDoubleTap;
+                }else if (tapCount==2 && Time.time < newTime)
+                {
+                    GameController.Instanse._generator.getOneRandomColor(hit.collider.gameObject.GetComponent<Element>());
+                }
+            }
+            if (Time.time > newTime)
+            {
+                tapCount = 0;
+            }
+            #endregion
+            
+            
         }
 
         void MobileController()
@@ -97,7 +121,7 @@ namespace Ez
             #endregion
             
             #region DoubleTap
-            Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+            Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);  //TODO: надо ли постоянно выпускать лучь или нет. Хер его (потом зарефакторим)
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, 10, CollisionDetected) && Input.GetTouch(0).phase== TouchPhase.Ended)
             {
