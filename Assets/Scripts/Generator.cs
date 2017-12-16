@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Ez
 {
@@ -15,7 +17,8 @@ namespace Ez
         /// </summary>
        public void Fill()
         {
-            
+            _currentColor.Clear();
+            _generateColor.Clear();
             for (int i = 0; i < Data.Instanse.CountColor; i++)
             {
                 _currentColor.Add(Data.Instanse.Colors[i]);
@@ -26,8 +29,9 @@ namespace Ez
         {
             for (int i = 0; i < 3; i++)
             {
-                getRandomColor();
+              _generateColor.Add(getRandomColor());
             }
+//            Debug.Log("End Geberate");
         }
 
         /// <summary>
@@ -38,9 +42,24 @@ namespace Ez
         {
             int indexColor = Random.Range(0, _currentColor.Count);
             var vColor = _currentColor[indexColor];
-            _generateColor.Add(_currentColor[indexColor]);
             _currentColor.RemoveAt(indexColor);
-            return new Color();
+            return vColor;
+        }
+
+ 
+
+       public void getOneRandomColor(Element element)
+        {
+            Fill();
+            Color  vColor = new Color();
+            do
+            {
+                int indexColor = Random.Range(0, _currentColor.Count);
+                vColor = _currentColor[indexColor];
+            } while (_generateColor.Contains(vColor));
+
+            element.MyMaterials.color = vColor;
+
         }
 
 

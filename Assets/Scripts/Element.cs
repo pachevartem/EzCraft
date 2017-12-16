@@ -16,7 +16,7 @@ namespace Ez
 			MyMaterials = gameObject.GetComponent<Renderer>().material;
 		}
 
-
+		
 		private void OnTriggerEnter(Collider other)
 		{
 			print(other.name);
