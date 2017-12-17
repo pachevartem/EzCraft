@@ -7,12 +7,11 @@ namespace Ez
 {
     public class Generator
     {
-      
         
         /// <summary>
         /// Заполняем массив из заданного
         /// </summary>
-        public void SetCurrentColor()
+        public void SetCurrentColor()   //TODO: возможно перенести метод в GameController из за частой связи с Singloton
         {
             SetupElement(GameController.Instanse.Cubes,3);
             SetupElement(GameController.Instanse.Circles,3);
@@ -73,7 +72,7 @@ namespace Ez
         }
 
 
-        public void getOneRandomColor(Element element)
+        public void getOneRandomColor(Element element)  //TODO: может быть перенести этот метод в GameController, слишком много обращений к Singleton
         {
             if (ExistColor(element.Color, GameController.Instanse.Circles))
             {
@@ -83,22 +82,20 @@ namespace Ez
             do
             {
                 int indexColor = Random.Range(0, 3);
-                Debug.Log("Сгенерировал число - " + indexColor);
                 var gColor = GenerateSetColor(3, Data.Instanse.Colors);
-                Debug.Log("Длинна - " + gColor.Count);
                 vColor = gColor[indexColor];
             } while (ExistColor(vColor, GameController.Instanse.Cubes));
-
             element.Color = vColor;
         }
 
-        bool ExistColor(Color color, List<Element> elements)
+        
+        bool ExistColor(Color color, List<Element> elements) 
         {
             for (int i = 0; i < 3; i++)
             {
                 if (elements[i].Color == color )
                 {
-                    Debug.Log("Сверяю");
+//                    Debug.Log("Сверяю");
                     return true;
                 }
             }

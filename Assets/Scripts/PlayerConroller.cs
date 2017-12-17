@@ -134,8 +134,8 @@ namespace Ez
                 }
                 else if (tapCount == 2 && Time.time < newTime)
                 {
-//                    GameController.Instanse._generator.getOneRandomColor(
-//                        hit.collider.gameObject.GetComponent<Element>());
+                    GameController.Instanse._generator.getOneRandomColor(
+                        hit.collider.gameObject.GetComponent<Element>());
                 }
             }
             if (Time.time > newTime)
@@ -182,7 +182,8 @@ namespace Ez
         /// </summary>
         void Moved(Vector3 position)
         {
-            Gragabble.position = Camera.main.ScreenToWorldPoint(position);
+            var pos = Camera.main.ScreenToWorldPoint(position);
+            Gragabble.position = new Vector3(pos.x,pos.y,0);
         }
     }
 }
