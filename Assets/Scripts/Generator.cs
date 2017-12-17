@@ -7,61 +7,102 @@ namespace Ez
 {
     public class Generator
     {
-       
-        private List<Color> _currentColor = new List<Color>();
-        public List<Color> _generateColor = new List<Color>();
-
+      
         
         /// <summary>
-        /// Заполняем массив для генерации
+        /// Заполняем массив из заданного
         /// </summary>
-       public void Fill()
+        public void SetCurrentColor()
         {
-            _currentColor.Clear();
-            _generateColor.Clear();
-            for (int i = 0; i < Data.Instanse.CountColor; i++)
+            SetupElement(GameController.Instanse.Cubes,3);
+            SetupElement(GameController.Instanse.Circles,3);
+        }
+
+        
+        void SetupElement(List<Element> elements, int counElement)
+        {
+            var generateColor = GenerateSetColor(counElement, Data.Instanse.Colors);
+            for (int i = 0; i < counElement; i++)
             {
-                _currentColor.Add(Data.Instanse.Colors[i]);
+                elements[i].Color = generateColor[i];
             }
         }
 
-       public void Gen()
+
+
+        /// <summary>
+        /// возвращает сгенерированный лист цветов
+        /// </summary>
+        /// <param name="count"> укажите колличесвто цветов, не превышающих заданное количество</param>
+        /// <returns> что тут?</returns>
+        List<Color> GenerateSetColor(int count, List<Color> fromData)
         {
-            for (int i = 0; i < 3; i++)
+            
+            if (count>fromData.Count)
             {
-              _generateColor.Add(getRandomColor());
+                Debug.LogError("Выходим за предела заданог массива");
+                Debug.Break();
             }
-//            Debug.Log("End Geberate");
+
+            var bufferList = new List<Color>();
+            for (int i = 0; i < fromData.Count; i++)
+            {
+                bufferList.Add(Data.Instanse.Colors[i]);
+            }
+            
+            var colors = new List<Color>();
+            for (int i = 0; i < count; i++)
+            {
+                colors.Add(getRandomColor(bufferList));
+            }
+            
+            return colors;
         }
+
 
         /// <summary>
         /// Получаем цвет из заданого списка
         /// </summary>
         /// <returns></returns>
-        Color getRandomColor()
+        Color getRandomColor(List<Color> buffer)
         {
-            int indexColor = Random.Range(0, _currentColor.Count);
-            var vColor = _currentColor[indexColor];
-            _currentColor.RemoveAt(indexColor);
+            int indexColor = Random.Range(0, buffer.Count);
+            var vColor = buffer[indexColor];
+            buffer.RemoveAt(indexColor);
             return vColor;
         }
 
- 
 
-       public void getOneRandomColor(Element element)
+        public void getOneRandomColor(Element element)
         {
-            Fill();
-            Color  vColor = new Color();
+            if (ExistColor(element.Color, GameController.Instanse.Circles))
+            {
+                return;
+            }
+            Color vColor = new Color();
             do
             {
-                int indexColor = Random.Range(0, _currentColor.Count);
-                vColor = _currentColor[indexColor];
-            } while (_generateColor.Contains(vColor));
+                int indexColor = Random.Range(0, 3);
+                Debug.Log("Сгенерировал число - " + indexColor);
+                var gColor = GenerateSetColor(3, Data.Instanse.Colors);
+                Debug.Log("Длинна - " + gColor.Count);
+                vColor = gColor[indexColor];
+            } while (ExistColor(vColor, GameController.Instanse.Cubes));
 
-            element.MyMaterials.color = vColor;
-
+            element.Color = vColor;
         }
 
-
+        bool ExistColor(Color color, List<Element> elements)
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                if (elements[i].Color == color )
+                {
+                    Debug.Log("Сверяю");
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }

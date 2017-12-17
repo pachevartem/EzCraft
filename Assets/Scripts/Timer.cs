@@ -5,36 +5,33 @@ using UnityEngine;
 
 namespace Ez
 {
+    /// <summary>
+    /// Описывает работы таймера
+    /// </summary>
+    public class Timer : MonoBehaviour
+    {
+        public int StartTimer = 10; //TODO: сделать считывание с файла 
 
-	/// <summary>
-	/// Описывает работы таймера
-	/// </summary>
-	public class Timer : MonoBehaviour
-	{
+        /// <summary>
+        /// Запустить отсчет
+        /// </summary>
+        public void BeginTimer()
+        {
+            StartCoroutine(TimeOff(StartTimer));
+        }
 
-		public int StartTimer = 10;  //TODO: сделать считывание с файла 
+        IEnumerator TimeOff(int startTime)
+        {
+            while (true)
+            {
+                yield return new WaitForSeconds(1);
+                startTime--;
 
-		/// <summary>
-		/// Запустить отсчет
-		/// </summary>
-		public void BeginTimer()
-		{
-			StartCoroutine(TimeOff(StartTimer));
-		}
-
-		IEnumerator TimeOff(int startTime)   
-		{
-			while (true)
-			{
-				yield return new WaitForSeconds(1);
-				startTime--;
-	
-				if (startTime<0)
-				{
-					Debug.LogError("Вы програли - время кончилось");
-				}
-			}
-		}
-
-	}
+                if (startTime < 0)
+                {
+                    Debug.LogError("Вы програли - время кончилось");
+                }
+            }
+        }
+    }
 }

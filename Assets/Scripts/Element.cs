@@ -9,8 +9,18 @@ namespace Ez
 	public class Element : MonoBehaviour
 	{
 
-		public Material MyMaterials;
+		[SerializeField]
+		private Material MyMaterials;
 
+		public Color Color
+		{
+			get { return MyMaterials.color; }
+			set
+			{
+				MyMaterials.color = value;
+			}
+		}
+		
 		void Awake()
 		{
 			MyMaterials = gameObject.GetComponent<Renderer>().material;
