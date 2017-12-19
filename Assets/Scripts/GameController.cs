@@ -59,7 +59,7 @@ namespace Ez
         void Start()   
         {
              _generator.SetCurrentColor();
-             
+             BeginTimer();
         }
 
         public void BeginTimer()
@@ -79,13 +79,13 @@ namespace Ez
                 yield return new WaitForSeconds(1);
                 startTime--;
 
+                TimerText.text = startTime.ToString();
                 if (startTime < 0)
                 {
-                    TimerText.text = startTime.ToString();
                     Debug.LogError("Вы програли - время кончилось");
-                }
+                }    
             }
         }
-       
+           
     }
 }

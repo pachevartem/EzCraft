@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5fcbbf4a-e555-4eeb-8a48-83c842ef88ce" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.CraftEz/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CraftEz/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/GameCube.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/GameCube.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scence/main.unity" afterPath="$PROJECT_DIR$/Assets/Scence/main.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Element.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Element.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerConroller.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerConroller.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Timer.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +17,8 @@
       <file leaf-file-name="Timer.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="180">
+              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <marker date="1513706199000" expanded="true" signature="6:78" ph="..." />
                 <marker date="1513706199000" expanded="true" signature="93:219" ph="{...}" />
@@ -123,24 +118,24 @@
       <file leaf-file-name="GameController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="88" column="7" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+            <state relative-caret-position="745">
+              <caret line="85" column="21" lean-forward="false" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
               <folding>
-                <marker date="1513707008000" expanded="true" signature="6:100" ph="..." />
-                <marker date="1513707008000" expanded="true" signature="114:1987" ph="{...}" />
-                <marker date="1513707008000" expanded="true" signature="164:1985" ph="{...}" />
-                <marker date="1513707008000" expanded="false" signature="502:801" ph="Singleton" />
-                <marker date="1513707008000" expanded="true" signature="545:781" ph="{...}" />
-                <marker date="1513707008000" expanded="true" signature="609:698" ph="{...}" />
-                <marker date="1513707008000" expanded="false" signature="820:890" ph="/// увеличиваем счет на 1 ... " />
-                <marker date="1513707008000" expanded="true" signature="921:1009" ph="{...}" />
-                <marker date="1513707008000" expanded="true" signature="1039:1201" ph="{...}" />
-                <marker date="1513707008000" expanded="true" signature="1226:1303" ph="{...}" />
-                <marker date="1513707008000" expanded="true" signature="1337:1398" ph="{...}" />
-                <marker date="1513707008000" expanded="false" signature="1408:1574" ph="/// Запустить таймер с заданным параметром.  ... " />
-                <marker date="1513707008000" expanded="true" signature="1617:1971" ph="{...}" />
-                <marker date="1513707008000" expanded="true" signature="1652:1961" ph="{...}" />
-                <marker date="1513707008000" expanded="true" signature="1783:1947" ph="{...}" />
+                <marker date="1513727492000" expanded="true" signature="6:100" ph="..." />
+                <marker date="1513727492000" expanded="true" signature="114:2004" ph="{...}" />
+                <marker date="1513727492000" expanded="true" signature="164:2002" ph="{...}" />
+                <marker date="1513727492000" expanded="false" signature="502:801" ph="Singleton" />
+                <marker date="1513727492000" expanded="true" signature="545:781" ph="{...}" />
+                <marker date="1513727492000" expanded="true" signature="609:698" ph="{...}" />
+                <marker date="1513727492000" expanded="false" signature="820:890" ph="/// увеличиваем счет на 1 ... " />
+                <marker date="1513727492000" expanded="true" signature="921:1009" ph="{...}" />
+                <marker date="1513727492000" expanded="true" signature="1039:1201" ph="{...}" />
+                <marker date="1513727492000" expanded="true" signature="1226:1316" ph="{...}" />
+                <marker date="1513727492000" expanded="true" signature="1350:1411" ph="{...}" />
+                <marker date="1513727492000" expanded="false" signature="1421:1587" ph="/// Запустить таймер с заданным параметром.  ... " />
+                <marker date="1513727492000" expanded="true" signature="1630:1984" ph="{...}" />
+                <marker date="1513727492000" expanded="true" signature="1665:1974" ph="{...}" />
+                <marker date="1513727492000" expanded="true" signature="1851:1956" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -271,12 +266,12 @@
       <option name="presentableId" value="Default" />
       <updated>1513332274694</updated>
       <workItem from="1513332277052" duration="33218000" />
-      <workItem from="1513586875536" duration="4328000" />
+      <workItem from="1513586875536" duration="4869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37546000" />
+    <option name="totallyTimeSpent" value="38087000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,21 +382,21 @@
         <state relative-caret-position="405">
           <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
           <folding>
-            <marker date="1513707008000" expanded="true" signature="6:100" ph="..." />
-            <marker date="1513707008000" expanded="true" signature="114:1987" ph="{...}" />
-            <marker date="1513707008000" expanded="true" signature="164:1985" ph="{...}" />
-            <marker date="1513707008000" expanded="false" signature="502:801" ph="Singleton" />
-            <marker date="1513707008000" expanded="true" signature="545:781" ph="{...}" />
-            <marker date="1513707008000" expanded="true" signature="609:698" ph="{...}" />
-            <marker date="1513707008000" expanded="false" signature="820:890" ph="/// увеличиваем счет на 1 ... " />
-            <marker date="1513707008000" expanded="true" signature="921:1009" ph="{...}" />
-            <marker date="1513707008000" expanded="true" signature="1039:1201" ph="{...}" />
-            <marker date="1513707008000" expanded="true" signature="1226:1303" ph="{...}" />
-            <marker date="1513707008000" expanded="true" signature="1337:1398" ph="{...}" />
-            <marker date="1513707008000" expanded="false" signature="1408:1574" ph="/// Запустить таймер с заданным параметром.  ... " />
-            <marker date="1513707008000" expanded="true" signature="1617:1971" ph="{...}" />
-            <marker date="1513707008000" expanded="true" signature="1652:1961" ph="{...}" />
-            <marker date="1513707008000" expanded="true" signature="1783:1947" ph="{...}" />
+            <marker date="1513727492000" expanded="true" signature="6:100" ph="..." />
+            <marker date="1513727492000" expanded="true" signature="114:2004" ph="{...}" />
+            <marker date="1513727492000" expanded="true" signature="164:2002" ph="{...}" />
+            <marker date="1513727492000" expanded="false" signature="502:801" ph="Singleton" />
+            <marker date="1513727492000" expanded="true" signature="545:781" ph="{...}" />
+            <marker date="1513727492000" expanded="true" signature="609:698" ph="{...}" />
+            <marker date="1513727492000" expanded="false" signature="820:890" ph="/// увеличиваем счет на 1 ... " />
+            <marker date="1513727492000" expanded="true" signature="921:1009" ph="{...}" />
+            <marker date="1513727492000" expanded="true" signature="1039:1201" ph="{...}" />
+            <marker date="1513727492000" expanded="true" signature="1226:1316" ph="{...}" />
+            <marker date="1513727492000" expanded="true" signature="1350:1411" ph="{...}" />
+            <marker date="1513727492000" expanded="false" signature="1421:1587" ph="/// Запустить таймер с заданным параметром.  ... " />
+            <marker date="1513727492000" expanded="true" signature="1630:1984" ph="{...}" />
+            <marker date="1513727492000" expanded="true" signature="1665:1974" ph="{...}" />
+            <marker date="1513727492000" expanded="true" signature="1851:1956" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -499,6 +494,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EzCube.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="97" column="11" lean-forward="false" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
+          <folding>
+            <marker date="1513586880000" expanded="false" signature="6:101" ph="..." />
+            <marker date="1513586880000" expanded="true" signature="115:3116" ph="{...}" />
+            <marker date="1513586880000" expanded="true" signature="144:3114" ph="{...}" />
+            <marker date="1513586880000" expanded="false" signature="168:246" ph="/// Заполняем массив из заданного ... " />
+            <marker date="1513586880000" expanded="true" signature="367:507" ph="{...}" />
+            <marker date="1513586880000" expanded="true" signature="584:821" ph="{...}" />
+            <marker date="1513586880000" expanded="true" signature="729:811" ph="{...}" />
+            <marker date="1513586880000" expanded="false" signature="833:1065" ph="/// возвращает сгенерированный лист цветов ... " />
+            <marker date="1513586880000" expanded="true" signature="1135:1747" ph="{...}" />
+            <marker date="1513586880000" expanded="true" signature="1196:1325" ph="{...}" />
+            <marker date="1513586880000" expanded="true" signature="1427:1512" ph="{...}" />
+            <marker date="1513586880000" expanded="true" signature="1613:1697" ph="{...}" />
+            <marker date="1513586880000" expanded="false" signature="1758:1871" ph="/// Получаем цвет из заданого списка ... " />
+            <marker date="1513586880000" expanded="true" signature="1920:2113" ph="{...}" />
+            <marker date="1513586880000" expanded="true" signature="2265:2761" ph="{...}" />
+            <marker date="1513586880000" expanded="true" signature="2351:2403" ph="{...}" />
+            <marker date="1513586880000" expanded="true" signature="2833:3108" ph="{...}" />
+            <marker date="1513586880000" expanded="true" signature="2883:3072" ph="{...}" />
+            <marker date="1513586880000" expanded="true" signature="2946:3058" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -512,25 +535,6 @@
             <marker date="1513586880000" expanded="true" signature="597:833" ph="{...}" />
             <marker date="1513586880000" expanded="true" signature="661:750" ph="{...}" />
             <marker date="1513586880000" expanded="true" signature="884:929" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Element.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding>
-            <marker date="1513703949000" expanded="false" signature="6:92" ph="..." />
-            <marker date="1513703949000" expanded="true" signature="107:855" ph="{...}" />
-            <marker date="1513703949000" expanded="true" signature="148:853" ph="{...}" />
-            <marker date="1513703949000" expanded="true" signature="354:447" ph="{...}" />
-            <marker date="1513703949000" expanded="true" signature="402:443" ph="{...}" />
-            <marker date="1513703949000" expanded="true" signature="465:536" ph="{...}" />
-            <marker date="1513703949000" expanded="true" signature="583:850" ph="{...}" />
-            <marker date="1513703949000" expanded="true" signature="623:846" ph="{...}" />
-            <marker date="1513703949000" expanded="true" signature="708:770" ph="{...}" />
-            <marker date="1513703949000" expanded="true" signature="779:841" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -579,10 +583,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Element.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+          <folding>
+            <marker date="1513703949000" expanded="false" signature="6:92" ph="..." />
+            <marker date="1513703949000" expanded="true" signature="107:855" ph="{...}" />
+            <marker date="1513703949000" expanded="true" signature="148:853" ph="{...}" />
+            <marker date="1513703949000" expanded="true" signature="354:447" ph="{...}" />
+            <marker date="1513703949000" expanded="true" signature="402:443" ph="{...}" />
+            <marker date="1513703949000" expanded="true" signature="465:536" ph="{...}" />
+            <marker date="1513703949000" expanded="true" signature="583:850" ph="{...}" />
+            <marker date="1513703949000" expanded="true" signature="623:846" ph="{...}" />
+            <marker date="1513703949000" expanded="true" signature="708:770" ph="{...}" />
+            <marker date="1513703949000" expanded="true" signature="779:841" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="180">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <marker date="1513706199000" expanded="true" signature="6:78" ph="..." />
             <marker date="1513706199000" expanded="true" signature="93:219" ph="{...}" />
@@ -592,54 +615,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="97" column="11" lean-forward="false" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
-          <folding>
-            <marker date="1513586880000" expanded="false" signature="6:101" ph="..." />
-            <marker date="1513586880000" expanded="true" signature="115:3116" ph="{...}" />
-            <marker date="1513586880000" expanded="true" signature="144:3114" ph="{...}" />
-            <marker date="1513586880000" expanded="false" signature="168:246" ph="/// Заполняем массив из заданного ... " />
-            <marker date="1513586880000" expanded="true" signature="367:507" ph="{...}" />
-            <marker date="1513586880000" expanded="true" signature="584:821" ph="{...}" />
-            <marker date="1513586880000" expanded="true" signature="729:811" ph="{...}" />
-            <marker date="1513586880000" expanded="false" signature="833:1065" ph="/// возвращает сгенерированный лист цветов ... " />
-            <marker date="1513586880000" expanded="true" signature="1135:1747" ph="{...}" />
-            <marker date="1513586880000" expanded="true" signature="1196:1325" ph="{...}" />
-            <marker date="1513586880000" expanded="true" signature="1427:1512" ph="{...}" />
-            <marker date="1513586880000" expanded="true" signature="1613:1697" ph="{...}" />
-            <marker date="1513586880000" expanded="false" signature="1758:1871" ph="/// Получаем цвет из заданого списка ... " />
-            <marker date="1513586880000" expanded="true" signature="1920:2113" ph="{...}" />
-            <marker date="1513586880000" expanded="true" signature="2265:2761" ph="{...}" />
-            <marker date="1513586880000" expanded="true" signature="2351:2403" ph="{...}" />
-            <marker date="1513586880000" expanded="true" signature="2833:3108" ph="{...}" />
-            <marker date="1513586880000" expanded="true" signature="2883:3072" ph="{...}" />
-            <marker date="1513586880000" expanded="true" signature="2946:3058" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="88" column="7" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+        <state relative-caret-position="745">
+          <caret line="85" column="21" lean-forward="false" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
           <folding>
-            <marker date="1513707008000" expanded="true" signature="6:100" ph="..." />
-            <marker date="1513707008000" expanded="true" signature="114:1987" ph="{...}" />
-            <marker date="1513707008000" expanded="true" signature="164:1985" ph="{...}" />
-            <marker date="1513707008000" expanded="false" signature="502:801" ph="Singleton" />
-            <marker date="1513707008000" expanded="true" signature="545:781" ph="{...}" />
-            <marker date="1513707008000" expanded="true" signature="609:698" ph="{...}" />
-            <marker date="1513707008000" expanded="false" signature="820:890" ph="/// увеличиваем счет на 1 ... " />
-            <marker date="1513707008000" expanded="true" signature="921:1009" ph="{...}" />
-            <marker date="1513707008000" expanded="true" signature="1039:1201" ph="{...}" />
-            <marker date="1513707008000" expanded="true" signature="1226:1303" ph="{...}" />
-            <marker date="1513707008000" expanded="true" signature="1337:1398" ph="{...}" />
-            <marker date="1513707008000" expanded="false" signature="1408:1574" ph="/// Запустить таймер с заданным параметром.  ... " />
-            <marker date="1513707008000" expanded="true" signature="1617:1971" ph="{...}" />
-            <marker date="1513707008000" expanded="true" signature="1652:1961" ph="{...}" />
-            <marker date="1513707008000" expanded="true" signature="1783:1947" ph="{...}" />
+            <marker date="1513727492000" expanded="true" signature="6:100" ph="..." />
+            <marker date="1513727492000" expanded="true" signature="114:2004" ph="{...}" />
+            <marker date="1513727492000" expanded="true" signature="164:2002" ph="{...}" />
+            <marker date="1513727492000" expanded="false" signature="502:801" ph="Singleton" />
+            <marker date="1513727492000" expanded="true" signature="545:781" ph="{...}" />
+            <marker date="1513727492000" expanded="true" signature="609:698" ph="{...}" />
+            <marker date="1513727492000" expanded="false" signature="820:890" ph="/// увеличиваем счет на 1 ... " />
+            <marker date="1513727492000" expanded="true" signature="921:1009" ph="{...}" />
+            <marker date="1513727492000" expanded="true" signature="1039:1201" ph="{...}" />
+            <marker date="1513727492000" expanded="true" signature="1226:1316" ph="{...}" />
+            <marker date="1513727492000" expanded="true" signature="1350:1411" ph="{...}" />
+            <marker date="1513727492000" expanded="false" signature="1421:1587" ph="/// Запустить таймер с заданным параметром.  ... " />
+            <marker date="1513727492000" expanded="true" signature="1630:1984" ph="{...}" />
+            <marker date="1513727492000" expanded="true" signature="1665:1974" ph="{...}" />
+            <marker date="1513727492000" expanded="true" signature="1851:1956" ph="{...}" />
           </folding>
         </state>
       </provider>
