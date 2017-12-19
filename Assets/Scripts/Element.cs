@@ -12,7 +12,8 @@ namespace Ez
 		private Material MyMaterials;
 
 		public delegate void OnCollision();
-		public static OnCollision ColisionColor;
+		public static OnCollision FailCollision;
+		public static OnCollision TrueCollision;
 		
 		
 		public Color Color
@@ -36,11 +37,12 @@ namespace Ez
 				var e = other.gameObject.GetComponent<Element>();
 				if (e.Color == Color)
 				{
-					print("Одинаковые");
-					
+//					print("Одинаковые");
+					TrueCollision();
 				}
 				else
 				{
+					FailCollision();
 					print("Неодинаковые");
 				}
 			}

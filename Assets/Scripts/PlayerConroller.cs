@@ -18,6 +18,10 @@ namespace Ez
         private Transform Gragabble;
         private bool isGrabbing;
 
+        void Awake()
+        {
+            Element.FailCollision += ResetFinger;
+        }
 
         private void Update() // TODO: может надо сделать FixedUpdate() пока хер его
         {
