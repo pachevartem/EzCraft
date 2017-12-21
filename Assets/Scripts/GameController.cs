@@ -7,24 +7,40 @@ namespace Ez
 {
     public class GameController : MonoBehaviour
     {
-        
+        /// <summary>
+        /// Кубики
+        /// </summary>
         public List<Element> Cubes;
+        /// <summary>
+        /// Шарики
+        /// </summary>
         public List<Element> Circles;
 
-        
+        public Generator _generator = new Generator();
         
         #region UI
         
         public Text ScoreText;
-        private int Score = 0;
-        
+        private int _score = 0;
+
+        public int Score
+        {
+            get { return _score; }
+            set
+            {
+                _score = value;
+                ScoreText.text = _score.ToString();
+                if (Score%10 ==0)
+                {
+                    AddBonusTime();
+                }
+            }
+        }
+
         public Text TimerText;
-        private Timer Timer;
-        
+        public int TimeGame;
         #endregion
         
-        public Generator _generator = new Generator();
-
         #region Singleton
         public static GameController Instanse;
        
@@ -48,19 +64,29 @@ namespace Ez
         public void AddScore()
         {
             Score++;
-            ScoreText.text = Score.ToString();
+        }
+  
+        /// <summary>
+        /// увеличиваем счет на 10
+        /// </summary>
+        public void AddBonusTime()
+        {
+            TimeGame += 10;
         }
 
-        
         private void Awake()
         {
             Singleton();
             Element.TrueCollision += AddScore; // Подписка добавление счета на соприкосновение одинаковых элементов.
+            
         } 
+        
         private void Start()
         {
              _generator.SetCurrentColor();
+            TimeGame = Data.Instanse.TimeGame;
              BeginTimer();
+          
         }
 
         /// <summary>
@@ -68,7 +94,7 @@ namespace Ez
         /// </summary>
         public void BeginTimer()
         {
-            StartCoroutine(TimeOff(Data.Instanse.TimeGame));
+            StartCoroutine(TimeOff());
         }
         
         /// <summary>
@@ -76,15 +102,15 @@ namespace Ez
         /// </summary>
         /// <param name="startTime"></param>
         /// <returns></returns>
-        IEnumerator TimeOff(int startTime)
+        IEnumerator TimeOff()
         {
             while (true)
             {
                 yield return new WaitForSeconds(1);
-                startTime--;
+                TimeGame--;
 
-                TimerText.text = startTime.ToString();
-                if (startTime < 0)
+                TimerText.text = TimeGame.ToString();
+                if (TimeGame < 0)
                 {
                     Debug.LogError("Вы програли - время кончилось");
                 }    

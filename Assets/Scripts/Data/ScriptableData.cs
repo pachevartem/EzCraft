@@ -8,12 +8,18 @@ using LitJson;
 using Object = System.Object;
 
 
+/// <summary>
+/// Файл работы с настройками игры
+/// </summary>
 [CreateAssetMenu(fileName = "DataSetup", menuName = "Inventory/List", order = 1)]
 public class ScriptableData : ScriptableObject
 {
     public List<Color> GameColors = new List<Color>();
     public int TimeGame;
 
+    /// <summary>
+    /// Деактивация ScriptableObject
+    /// </summary>
     private void OnDisable()
     {
         if (File.Exists(Application.dataPath + "/Resources/SettingsGame.json"))

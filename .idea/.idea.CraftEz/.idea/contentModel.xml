@@ -13,6 +13,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="CircleTimer.cs" t="Include" />
           <e p="Data" t="Include">
             <e p="ScriptableData.cs" t="Include" />
           </e>

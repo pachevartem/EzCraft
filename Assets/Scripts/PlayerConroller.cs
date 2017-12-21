@@ -5,35 +5,69 @@ using Debug = UnityEngine.Debug;
 
 namespace Ez
 {
+    /// <summary>
+    /// Класс описывающий работу игрока
+    /// </summary>
     public class PlayerConroller : MonoBehaviour
     {
+        /// <summary>
+        /// Физический слой
+        /// </summary>
         public LayerMask CollisionDetected;
+        /// <summary>
+        /// Стартовая позиция
+        /// </summary>
         private Vector3 startPosition;
-        public float speed = 0.1F;
 
+        /// <summary>
+        /// Количество нажатий, переменная используется для отслеживания двойного нажатия
+        /// </summary>
         private int tapCount = 0;
+        
+        /// <summary>
+        /// Задержка, дельта между двойным нажатием
+        /// </summary>
         private float timeDoubleTap = 0.4f;
+        /// <summary>
+        /// Переменная засикающая время, для отслеживания переменных
+        /// </summary>
         private float newTime;
 
+        /// <summary>
+        /// Перемещаемый объект
+        /// </summary>
         private Transform Gragabble;
+        /// <summary>
+        /// Показывает статус объекта, перемещается или нет
+        /// </summary>
         private bool isGrabbing;
 
+        /// <summary>
+        /// Отрабатывается перед 1 кадрос
+        /// </summary>
         void Awake()
         {
             Element.FailCollision += ResetFinger;
+            Element.TrueCollision += ResetFinger;
         }
-
+        
+        /// <summary>
+        /// Отрабатывает каждые кадр отрисовки
+        /// </summary>
         private void Update() // TODO: может надо сделать FixedUpdate() пока хер его
         {
 #if UNITY_EDITOR
-            UnityEditorController();
+            UnityEditorController(); // Будет работать если ты в юнити
 #endif
 
 #if UNITY_ANDROID
-            MobileController();
+            MobileController(); // Будет работать если ты сбилдил под Ведра
 #endif
         }
 
+        /// <summary>
+        /// Метод взаимодействия с объектами с помощью мыши
+        /// </summary>
         void UnityEditorController()
         {
             if (Input.GetMouseButtonDown(0)) // нажал на левую кнопку мыши
@@ -70,7 +104,7 @@ namespace Ez
                 }
                 else if (tapCount == 2 && Time.time < newTime)
                 {
-                    GameController.Instanse._generator.getOneRandomColor(hit.collider.gameObject.GetComponent<Element>());
+                    GameController.Instanse._generator.getOneRandomColor(hit.collider.gameObject.GetComponent<Element>(),GameController.Instanse.Circles,GameController.Instanse.Cubes);
                 }
             }
             if (Time.time > newTime)
@@ -81,6 +115,11 @@ namespace Ez
             #endregion
         }
 
+        
+        /// <summary>
+        /// Сенсорные экраны
+        /// </summary>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
         void MobileController()
         {
             if (Input.touchCount < 1)
@@ -138,7 +177,10 @@ namespace Ez
                 else if (tapCount == 2 && Time.time < newTime)
                 {
                     GameController.Instanse._generator.getOneRandomColor(
-                        hit.collider.gameObject.GetComponent<Element>());
+                        hit.collider.gameObject.GetComponent<Element>(),
+                        GameController.Instanse.Circles,
+                        GameController.Instanse.Cubes
+                        );
                 }
             }
             if (Time.time > newTime)
