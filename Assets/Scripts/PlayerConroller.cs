@@ -88,8 +88,7 @@ namespace Ez
 
             #region Обработка нажатий пальцев
 
-            switch (Input.GetTouch(0).phase
-                ) //TODO: надо ли менять на конструкцию If() тоже не ясно, до рефакторинга так нагляднее.
+            switch (Input.GetTouch(0).phase) //TODO: надо ли менять на конструкцию If() тоже не ясно, до рефакторинга так нагляднее.
                 {
                     case TouchPhase.Began: // Палец только что прикоснулся к экрану.
                         if (GetObject(Input.GetTouch(0).position))

@@ -7,25 +7,27 @@ namespace Ez
 {
     public class GameController : MonoBehaviour
     {
+        
         public List<Element> Cubes;
         public List<Element> Circles;
 
-
+        
+        
+        #region UI
+        
         public Text ScoreText;
         private int Score = 0;
-
+        
         public Text TimerText;
-
-
         private Timer Timer;
         
+        #endregion
         
         public Generator _generator = new Generator();
 
-        public static GameController Instanse;
-
         #region Singleton
-
+        public static GameController Instanse;
+       
         void Singleton()
         {
             if (Instanse != null && Instanse != this)
@@ -39,8 +41,7 @@ namespace Ez
         }
 
         #endregion
-
-        
+   
         /// <summary>
         /// увеличиваем счет на 1
         /// </summary>
@@ -50,25 +51,28 @@ namespace Ez
             ScoreText.text = Score.ToString();
         }
 
+        
         private void Awake()
         {
             Singleton();
             Element.TrueCollision += AddScore; // Подписка добавление счета на соприкосновение одинаковых элементов.
-        }
-
-        void Start()   
+        } 
+        private void Start()
         {
              _generator.SetCurrentColor();
              BeginTimer();
         }
 
+        /// <summary>
+        /// Запустить таймер
+        /// </summary>
         public void BeginTimer()
         {
-            StartCoroutine(TimeOff(20));
+            StartCoroutine(TimeOff(Data.Instanse.TimeGame));
         }
-
+        
         /// <summary>
-        /// Запустить таймер с заданным параметром. 
+        /// Отдельный поток для таймера.
         /// </summary>
         /// <param name="startTime"></param>
         /// <returns></returns>

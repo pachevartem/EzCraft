@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using LitJson;
+using System.IO;
+using System.Linq;
 
 
 namespace Ez
@@ -10,17 +13,15 @@ namespace Ez
     /// </summary>
     public class Data : MonoBehaviour
     {
-        public int CountColor = 6; //TODO: читаем из файлв при инициализации приложения 6 для костылей
 
-        public List<Color> Colors; //TODO: тоже читать из файла
+        public List<Color> Colors;
+        public ScriptableData SO;
 
-        public List<Material> OwnMaterils; //TODO: надо будет заменить на список цветов погруженных из документа
-
-        public static Data Instanse;
-
-
+        public int TimeGame;
+        
+        
         #region Singleton
-
+        public static Data Instanse;
         void Singleton()
         {
             if (Instanse != null && Instanse != this)
@@ -32,13 +33,24 @@ namespace Ez
             Instanse = this;
             DontDestroyOnLoad(gameObject);
         }
-
         #endregion
 
+        
+
+         public void SetupGame()
+        {
+            for (int i = 0; i < SO.GameColors.Count; i++)
+            {
+                Colors.Add(SO.GameColors[i]);
+            }
+            TimeGame = SO.TimeGame;
+        }
 
         private void Awake()
         {
             Singleton();
+          SetupGame();
         }
+        
     }
 }
