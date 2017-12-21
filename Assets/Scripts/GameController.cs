@@ -7,8 +7,13 @@ namespace Ez
 {
     public class GameController : MonoBehaviour
     {
-        
+        /// <summary>
+        /// Кубики
+        /// </summary>
         public List<Element> Cubes;
+        /// <summary>
+        /// Шарики
+        /// </summary>
         public List<Element> Circles;
 
         
@@ -57,6 +62,7 @@ namespace Ez
             Singleton();
             Element.TrueCollision += AddScore; // Подписка добавление счета на соприкосновение одинаковых элементов.
         } 
+        
         private void Start()
         {
              _generator.SetCurrentColor();
