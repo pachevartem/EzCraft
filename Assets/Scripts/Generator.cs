@@ -79,9 +79,9 @@ namespace Ez
         /// <param name="element"></param>
         /// <param name="a"></param>
         /// <param name="b"></param>
-        public void getOneRandomColor(Element element, List<Element> a, List<Element> b)  //TODO: может быть перенести этот метод в GameController, слишком много обращений к Singleton
+        public void GetOneRandomColor(Element element, List<Element> a, List<Element> b)  //TODO: может быть перенести этот метод в GameController, слишком много обращений к Singleton
         {
-            if (ExistColor(element.Color, a)) //GameController.Instanse.Circles
+            if (ExistColor(element.Color, a)) 
             {
                 return;
             }
@@ -91,7 +91,7 @@ namespace Ez
                 int indexColor = Random.Range(0, 3);
                 var gColor = GenerateSetColor(3, Data.Instanse.Colors);
                 vColor = gColor[indexColor];
-            } while (ExistColor(vColor,b )); //GameController.Instanse.Cubes
+            } while (ExistColor(vColor,b )); 
             element.Color = vColor;
         }
         

@@ -79,7 +79,7 @@ namespace Ez
                 Progress-= 0.01f;
                 if (Progress<0)
                 {
-                    GameController.Instanse._generator.getOneRandomColorCorcle(Element,GameController.Instanse.Circles);
+                    GameController.Instanse.Generator.getOneRandomColorCorcle(Element,GameController.Instanse.Circles);
                     BeginCour();
                 }
                

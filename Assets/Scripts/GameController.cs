@@ -11,15 +11,31 @@ namespace Ez
         /// Кубики
         /// </summary>
         public List<Element> Cubes;
+
         /// <summary>
         /// Шарики
         /// </summary>
         public List<Element> Circles;
 
-        public Generator _generator = new Generator();
+        /// <summary>
+        /// создаем генератор
+        /// </summary>
+        public Generator Generator = new Generator();
+
+        private int _bestScore;
+        
+
+        void CheckBestScore()
+        {
+          
+            if (_score>_bestScore)
+            {
+                PlayerPrefs.SetInt("Score",Score);
+            }
+        }
         
         #region UI
-        
+
         public Text ScoreText;
         private int _score = 0;
 
@@ -29,8 +45,10 @@ namespace Ez
             set
             {
                 _score = value;
-                ScoreText.text = _score.ToString();
-                if (Score%10 ==0)
+                CheckBestScore();
+                ScoreText.text = _score+"/"+_bestScore;
+                
+                if (Score % 10 == 0)
                 {
                     AddBonusTime();
                 }
@@ -39,11 +57,13 @@ namespace Ez
 
         public Text TimerText;
         public int TimeGame;
+
         #endregion
-        
+
         #region Singleton
+
         public static GameController Instanse;
-       
+
         void Singleton()
         {
             if (Instanse != null && Instanse != this)
@@ -57,7 +77,7 @@ namespace Ez
         }
 
         #endregion
-   
+
         /// <summary>
         /// увеличиваем счет на 1
         /// </summary>
@@ -65,7 +85,7 @@ namespace Ez
         {
             Score++;
         }
-  
+
         /// <summary>
         /// увеличиваем счет на 10
         /// </summary>
@@ -76,17 +96,16 @@ namespace Ez
 
         private void Awake()
         {
+            _bestScore = PlayerPrefs.GetInt("Score");
             Singleton();
             Element.TrueCollision += AddScore; // Подписка добавление счета на соприкосновение одинаковых элементов.
-            
-        } 
-        
+        }
+
         private void Start()
         {
-             _generator.SetCurrentColor();
+            Generator.SetCurrentColor();
             TimeGame = Data.Instanse.TimeGame;
-             BeginTimer();
-          
+            BeginTimer();
         }
 
         /// <summary>
@@ -96,7 +115,7 @@ namespace Ez
         {
             StartCoroutine(TimeOff());
         }
-        
+
         /// <summary>
         /// Отдельный поток для таймера.
         /// </summary>
@@ -113,9 +132,9 @@ namespace Ez
                 if (TimeGame < 0)
                 {
                     Debug.LogError("Вы програли - время кончилось");
-                }    
+                }
             }
         }
-           
+        
     }
 }

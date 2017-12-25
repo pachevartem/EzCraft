@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Diagnostics;
 using UnityEngine;
-using Debug = UnityEngine.Debug;
 
 namespace Ez
 {
@@ -14,6 +12,7 @@ namespace Ez
         /// Физический слой
         /// </summary>
         public LayerMask CollisionDetected;
+
         /// <summary>
         /// Стартовая позиция
         /// </summary>
@@ -23,11 +22,12 @@ namespace Ez
         /// Количество нажатий, переменная используется для отслеживания двойного нажатия
         /// </summary>
         private int tapCount = 0;
-        
+
         /// <summary>
         /// Задержка, дельта между двойным нажатием
         /// </summary>
         private float timeDoubleTap = 0.4f;
+
         /// <summary>
         /// Переменная засикающая время, для отслеживания переменных
         /// </summary>
@@ -37,15 +37,19 @@ namespace Ez
         /// Переменна для отслеживания перемещения мыши
         /// </summary>
         private Vector3 oldVector3 = Vector3.zero;
-        
+
         /// <summary>
         /// Перемещаемый объект
         /// </summary>
         private Transform Gragabble;
+
         /// <summary>
         /// Показывает статус объекта, перемещается или нет
         /// </summary>
         private bool isGrabbing;
+
+        private GameController _gc;
+        private Generator _gen;
 
         /// <summary>
         /// Отрабатывается перед 1 кадрос
@@ -55,11 +59,25 @@ namespace Ez
             Element.FailCollision += ResetFinger;
             Element.TrueCollision += ResetFinger;
         }
-        
+
+        private void Start()
+        {
+            SetStaticCariable(); //TODO: Разобраться со всеми инициализациями
+        }
+
+        /// <summary>
+        /// хешируем ссылки на синглтон
+        /// </summary>
+        void SetStaticCariable()
+        {
+            _gc = GameController.Instanse;
+            _gen = _gc.Generator;
+        }
+
         /// <summary>
         /// Отрабатывает каждые кадр отрисовки
         /// </summary>
-        private void Update() // TODO: может надо сделать FixedUpdate() пока хер его
+        private void Update()
         {
 #if UNITY_EDITOR
             UnityEditorController(); // Будет работать если ты в юнити
@@ -75,6 +93,14 @@ namespace Ez
         /// </summary>
         private void LateUpdate()
         {
+            SaveOldPisition();
+        }
+
+        /// <summary>
+        /// метод нужен только для контроля движения мыши
+        /// </summary>
+        void SaveOldPisition()
+        {
             oldVector3 = Input.mousePosition;
         }
 
@@ -84,9 +110,9 @@ namespace Ez
         /// <returns></returns>
         bool isMouseMoved()
         {
-            return Math.Abs(Vector3.Distance(oldVector3,Input.mousePosition)) > 0;
+            return Math.Abs(Vector3.Distance(oldVector3, Input.mousePosition)) > 0;
         }
-        
+
 
         /// <summary>
         /// Метод взаимодействия с объектами с помощью мыши
@@ -112,13 +138,34 @@ namespace Ez
                 ResetFinger();
             }
 
-            #region DoubleTap  
+            DoubleTap();
+        }
 
-            // TODO: ВОт это гавно тоже надо сделать универсальным
-            Ray ray = Camera.main.ScreenPointToRay(Input
-                .mousePosition); //TODO: надо ли постоянно выпускать лучь или нет. Хер его (потом зарефакторим)
+        /// <summary>
+        /// Двойной тап
+        /// </summary>
+        void DoubleTap()
+        {
+            Ray ray;
+            bool RaySolver;
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, 10, CollisionDetected) && Input.GetMouseButtonUp(0))
+#if UNITY_EDITOR
+            ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaySolver = Physics.Raycast(ray, out hit, 10, CollisionDetected) && Input.GetMouseButtonUp(0);
+#endif
+
+#if PLATFORM_ANDROID
+
+            if (Input.touchCount == 1)
+            {
+                ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+                RaySolver = Physics.Raycast(ray, out hit, 10, CollisionDetected) &&
+                            Input.GetTouch(0).phase == TouchPhase.Ended;
+            }
+#endif
+
+
+            if (RaySolver)
             {
                 tapCount++;
                 if (tapCount == 1)
@@ -127,18 +174,16 @@ namespace Ez
                 }
                 else if (tapCount == 2 && Time.time < newTime)
                 {
-                    GameController.Instanse._generator.getOneRandomColor(hit.collider.gameObject.GetComponent<Element>(),GameController.Instanse.Circles,GameController.Instanse.Cubes);
+                    _gen.GetOneRandomColor(hit.collider.gameObject.GetComponent<Element>(), _gc.Circles, _gc.Cubes);
                 }
             }
+
             if (Time.time > newTime)
             {
                 tapCount = 0;
             }
-
-            #endregion
         }
 
-        
         /// <summary>
         /// Сенсорные экраны
         /// </summary>
@@ -150,68 +195,42 @@ namespace Ez
 
             #region Обработка нажатий пальцев
 
-            switch (Input.GetTouch(0).phase) //TODO: надо ли менять на конструкцию If() тоже не ясно, до рефакторинга так нагляднее.
-                {
-                    case TouchPhase.Began: // Палец только что прикоснулся к экрану.
-                        if (GetObject(Input.GetTouch(0).position))
-                        {
-                            isGrabbing = true;
-                        }
-                        break;
-                    case TouchPhase.Moved: //Палец передвинулся по экрану.
-                        if (isGrabbing)
-                        {
-                            Moved(Input.GetTouch(0).position);
-                        }
-                        break;
-                    case TouchPhase.Stationary: // Палец прикоснулся к экрану, но с последнего кадра не двигался.
-                        if (isGrabbing)
-                        {
-                            Moved(Input.GetTouch(0).position);
-                        }
-                        break;
-                    case TouchPhase.Ended: // Палец только что оторван от экрана. Это последняя фаза нажатий.
-
-                        ResetFinger();
-
-                        break;
-                    case TouchPhase.Canceled
-                    : //Система отменила отслеживание касания, например, когда (например) пользователь ставит устройство на свое лицо или одновременно происходит более пяти касаний. Это заключительная фаза прикосновения.
-                        ResetFinger();
-                        break;
-                    default:
-                        throw new ArgumentOutOfRangeException();
-                }
-
-            #endregion
-
-            #region DoubleTap
-
-            Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0)
-                .position); //TODO: надо ли постоянно выпускать лучь или нет. Хер его (потом зарефакторим)
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, 10, CollisionDetected) && Input.GetTouch(0).phase == TouchPhase.Ended)
+            switch (Input.GetTouch(0).phase)
             {
-                tapCount++;
-                if (tapCount == 1)
-                {
-                    newTime = Time.time + timeDoubleTap;
-                }
-                else if (tapCount == 2 && Time.time < newTime)
-                {
-                    GameController.Instanse._generator.getOneRandomColor(
-                        hit.collider.gameObject.GetComponent<Element>(),
-                        GameController.Instanse.Circles,
-                        GameController.Instanse.Cubes
-                        );
-                }
-            }
-            if (Time.time > newTime)
-            {
-                tapCount = 0;
+                case TouchPhase.Began: // Палец только что прикоснулся к экрану.
+                    if (GetObject(Input.GetTouch(0).position))
+                    {
+                        isGrabbing = true;
+                    }
+                    break;
+                case TouchPhase.Moved: //Палец передвинулся по экрану.
+                    if (isGrabbing)
+                    {
+                        Moved(Input.GetTouch(0).position);
+                    }
+                    break;
+                case TouchPhase.Stationary: // Палец прикоснулся к экрану, но с последнего кадра не двигался.
+                    if (isGrabbing)
+                    {
+                        Moved(Input.GetTouch(0).position);
+                    }
+                    break;
+                case TouchPhase.Ended: // Палец только что оторван от экрана. Это последняя фаза нажатий.
+
+                    ResetFinger();
+
+                    break;
+                case TouchPhase.Canceled
+                : //Система отменила отслеживание касания, например, когда (например) пользователь ставит устройство на свое лицо или одновременно происходит более пяти касаний. Это заключительная фаза прикосновения.
+                    ResetFinger();
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException();
             }
 
             #endregion
+
+            DoubleTap();
         }
 
         /// <summary>
@@ -251,7 +270,7 @@ namespace Ez
         void Moved(Vector3 position)
         {
             var pos = Camera.main.ScreenToWorldPoint(position);
-            Gragabble.position = new Vector3(pos.x,pos.y,0);
+            Gragabble.position = new Vector3(pos.x, pos.y, 0);
         }
     }
 }
