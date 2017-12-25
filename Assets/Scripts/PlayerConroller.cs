@@ -34,6 +34,11 @@ namespace Ez
         private float newTime;
 
         /// <summary>
+        /// Переменна для отслеживания перемещения мыши
+        /// </summary>
+        private Vector3 oldVector3 = Vector3.zero;
+        
+        /// <summary>
         /// Перемещаемый объект
         /// </summary>
         private Transform Gragabble;
@@ -66,6 +71,24 @@ namespace Ez
         }
 
         /// <summary>
+        /// Отарабатывает в конце отрисовки кадра
+        /// </summary>
+        private void LateUpdate()
+        {
+            oldVector3 = Input.mousePosition;
+        }
+
+        /// <summary>
+        /// Проверяем двигается ли мышка
+        /// </summary>
+        /// <returns></returns>
+        bool isMouseMoved()
+        {
+            return Math.Abs(Vector3.Distance(oldVector3,Input.mousePosition)) > 0;
+        }
+        
+
+        /// <summary>
         /// Метод взаимодействия с объектами с помощью мыши
         /// </summary>
         void UnityEditorController()
@@ -79,7 +102,7 @@ namespace Ez
             }
             if (Input.GetMouseButton(0)) // держишь левую кнопку мыши
             {
-                if (isGrabbing)
+                if (isGrabbing && isMouseMoved())
                 {
                     Moved(Input.mousePosition);
                 }

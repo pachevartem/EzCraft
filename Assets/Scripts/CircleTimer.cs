@@ -69,14 +69,14 @@ namespace Ez
         /// <summary>
         /// Отдельный поток, для таймера, в кончце работы перезагружается и меняет цвет.
         /// </summary>
-        /// <param name="delta"></param>
+        /// <param name="second"></param>
         /// <returns></returns>
-        IEnumerator TimeOff(float delta)  //TODO: написать адекватную красивую функицю от времени. Желательно от входящего параметра
+        IEnumerator TimeOff(float second)  
         {
             while (true)
             {
-                yield return new WaitForSeconds(0.01f);
-                Progress-= 0.0004f*delta;
+                yield return new WaitForSeconds(0.01f*second);
+                Progress-= 0.01f;
                 if (Progress<0)
                 {
                     GameController.Instanse._generator.getOneRandomColorCorcle(Element,GameController.Instanse.Circles);

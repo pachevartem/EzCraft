@@ -10,53 +10,58 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="GameController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="52" column="30" lean-forward="false" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+            <state relative-caret-position="390">
+              <caret line="84" column="9" lean-forward="false" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
               <folding>
-                <marker date="1514142254247" expanded="false" signature="6:100" ph="..." />
-                <marker date="1514142254247" expanded="true" signature="114:2315" ph="{...}" />
-                <marker date="1514142254247" expanded="true" signature="164:2313" ph="{...}" />
-                <marker date="1514142254247" expanded="true" signature="179:234" ph="/// Кубики ... " />
-                <marker date="1514142254247" expanded="true" signature="279:334" ph="/// Шарики ... " />
-                <marker date="1514142254247" expanded="true" signature="400:578" ph="UI" />
-                <marker date="1514142254247" expanded="true" signature="652:1005" ph="Singleton" />
-                <marker date="1514142254247" expanded="true" signature="749:985" ph="{...}" />
-                <marker date="1514142254247" expanded="true" signature="813:902" ph="{...}" />
-                <marker date="1514142254247" expanded="true" signature="1018:1088" ph="/// увеличиваем счет на 1 ... " />
-                <marker date="1514142254247" expanded="true" signature="1119:1207" ph="{...}" />
-                <marker date="1514142254247" expanded="true" signature="1246:1408" ph="{...}" />
-                <marker date="1514142254247" expanded="true" signature="1447:1537" ph="{...}" />
-                <marker date="1514142254247" expanded="true" signature="1547:1612" ph="/// Запустить таймер ... " />
-                <marker date="1514142254247" expanded="true" signature="1645:1726" ph="{...}" />
-                <marker date="1514142254247" expanded="true" signature="1744:1898" ph="/// Отдельный поток для таймера. ... " />
-                <marker date="1514142254247" expanded="true" signature="1941:2295" ph="{...}" />
-                <marker date="1514142254247" expanded="true" signature="1976:2285" ph="{...}" />
-                <marker date="1514142254247" expanded="true" signature="2162:2267" ph="{...}" />
+                <marker date="1514142693064" expanded="false" signature="6:100" ph="..." />
+                <marker date="1514142693064" expanded="true" signature="114:2747" ph="{...}" />
+                <marker date="1514142693064" expanded="true" signature="164:2745" ph="{...}" />
+                <marker date="1514142693064" expanded="true" signature="179:234" ph="/// Кубики ... " />
+                <marker date="1514142693064" expanded="true" signature="279:334" ph="/// Шарики ... " />
+                <marker date="1514142693064" expanded="true" signature="446:923" ph="UI" />
+                <marker date="1514142693064" expanded="true" signature="554:843" ph="{...}" />
+                <marker date="1514142693064" expanded="true" signature="615:833" ph="{...}" />
+                <marker date="1514142693064" expanded="true" signature="747:819" ph="{...}" />
+                <marker date="1514142693064" expanded="true" signature="941:1294" ph="Singleton" />
+                <marker date="1514142693064" expanded="true" signature="1038:1274" ph="{...}" />
+                <marker date="1514142693064" expanded="true" signature="1102:1191" ph="{...}" />
+                <marker date="1514142693064" expanded="true" signature="1307:1377" ph="/// увеличиваем счет на 1 ... " />
+                <marker date="1514142693064" expanded="true" signature="1408:1449" ph="{...}" />
+                <marker date="1514142693064" expanded="true" signature="1461:1532" ph="/// увеличиваем счет на 10 ... " />
+                <marker date="1514142693064" expanded="true" signature="1567:1615" ph="{...}" />
+                <marker date="1514142693064" expanded="true" signature="1645:1820" ph="{...}" />
+                <marker date="1514142693064" expanded="true" signature="1859:2007" ph="{...}" />
+                <marker date="1514142693064" expanded="true" signature="2017:2082" ph="/// Запустить таймер ... " />
+                <marker date="1514142693064" expanded="true" signature="2115:2174" ph="{...}" />
+                <marker date="1514142693064" expanded="true" signature="2192:2346" ph="/// Отдельный поток для таймера. ... " />
+                <marker date="1514142693064" expanded="true" signature="2376:2727" ph="{...}" />
+                <marker date="1514142693064" expanded="true" signature="2411:2717" ph="{...}" />
+                <marker date="1514142693064" expanded="true" signature="2594:2699" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Element.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Element.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Element.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1514118261975" expanded="true" signature="6:92" ph="..." />
-                <marker date="1514118261975" expanded="true" signature="107:855" ph="{...}" />
-                <marker date="1514118261975" expanded="true" signature="148:853" ph="{...}" />
-                <marker date="1514118261975" expanded="true" signature="354:447" ph="{...}" />
-                <marker date="1514118261975" expanded="true" signature="402:443" ph="{...}" />
-                <marker date="1514118261975" expanded="true" signature="465:536" ph="{...}" />
-                <marker date="1514118261975" expanded="true" signature="583:850" ph="{...}" />
-                <marker date="1514118261975" expanded="true" signature="623:846" ph="{...}" />
-                <marker date="1514118261975" expanded="true" signature="708:770" ph="{...}" />
-                <marker date="1514118261975" expanded="true" signature="779:841" ph="{...}" />
+                <marker date="1514142374916" expanded="false" signature="6:92" ph="..." />
+                <marker date="1514142374916" expanded="true" signature="107:855" ph="{...}" />
+                <marker date="1514142374916" expanded="true" signature="148:853" ph="{...}" />
+                <marker date="1514142374916" expanded="true" signature="354:447" ph="{...}" />
+                <marker date="1514142374916" expanded="true" signature="402:443" ph="{...}" />
+                <marker date="1514142374916" expanded="true" signature="465:536" ph="{...}" />
+                <marker date="1514142374916" expanded="true" signature="583:850" ph="{...}" />
+                <marker date="1514142374916" expanded="true" signature="623:846" ph="{...}" />
+                <marker date="1514142374916" expanded="true" signature="708:770" ph="{...}" />
+                <marker date="1514142374916" expanded="true" signature="779:841" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -65,34 +70,34 @@
       <file leaf-file-name="Generator.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-1110">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1514142054429" expanded="true" signature="6:87" ph="..." />
-                <marker date="1514142054429" expanded="true" signature="101:4386" ph="{...}" />
-                <marker date="1514142054429" expanded="true" signature="108:182" ph="/// Содержит в себе генераторы цветов ... " />
-                <marker date="1514142054429" expanded="true" signature="209:4384" ph="{...}" />
-                <marker date="1514142054429" expanded="true" signature="224:302" ph="/// Заполняем массив из заданного ... " />
-                <marker date="1514142054429" expanded="true" signature="423:563" ph="{...}" />
-                <marker date="1514142054429" expanded="true" signature="577:745" ph="/// Установить элементы в массив ... " />
-                <marker date="1514142054429" expanded="true" signature="812:1049" ph="{...}" />
-                <marker date="1514142054429" expanded="true" signature="957:1039" ph="{...}" />
-                <marker date="1514142054429" expanded="true" signature="1059:1291" ph="/// возвращает сгенерированный лист цветов ... " />
-                <marker date="1514142054429" expanded="true" signature="1361:1973" ph="{...}" />
-                <marker date="1514142054429" expanded="true" signature="1422:1551" ph="{...}" />
-                <marker date="1514142054429" expanded="true" signature="1653:1738" ph="{...}" />
-                <marker date="1514142054429" expanded="true" signature="1839:1923" ph="{...}" />
-                <marker date="1514142054429" expanded="true" signature="1983:2096" ph="/// Получаем цвет из заданого списка ... " />
-                <marker date="1514142054429" expanded="true" signature="2145:2338" ph="{...}" />
-                <marker date="1514142054429" expanded="true" signature="2348:2537" ph="/// Сгенерировать один цвет ... " />
-                <marker date="1514142054429" expanded="true" signature="2721:3225" ph="{...}" />
-                <marker date="1514142054429" expanded="true" signature="2811:2863" ph="{...}" />
-                <marker date="1514142054429" expanded="true" signature="3243:3412" ph="/// Сгенерировать один цвет для колец ... " />
-                <marker date="1514142054429" expanded="true" signature="3497:3875" ph="{...}" />
-                <marker date="1514142054429" expanded="true" signature="3885:4084" ph="/// Узнать есть ли такой цвет в листе ... " />
-                <marker date="1514142054429" expanded="true" signature="4146:4378" ph="{...}" />
-                <marker date="1514142054429" expanded="true" signature="4196:4342" ph="{...}" />
-                <marker date="1514142054429" expanded="true" signature="4259:4328" ph="{...}" />
+                <marker date="1514142375001" expanded="false" signature="6:87" ph="..." />
+                <marker date="1514142375001" expanded="true" signature="101:4386" ph="{...}" />
+                <marker date="1514142375001" expanded="true" signature="108:182" ph="/// Содержит в себе генераторы цветов ... " />
+                <marker date="1514142375001" expanded="true" signature="209:4384" ph="{...}" />
+                <marker date="1514142375001" expanded="true" signature="224:302" ph="/// Заполняем массив из заданного ... " />
+                <marker date="1514142375001" expanded="true" signature="423:563" ph="{...}" />
+                <marker date="1514142375001" expanded="true" signature="577:745" ph="/// Установить элементы в массив ... " />
+                <marker date="1514142375001" expanded="true" signature="812:1049" ph="{...}" />
+                <marker date="1514142375001" expanded="true" signature="957:1039" ph="{...}" />
+                <marker date="1514142375001" expanded="true" signature="1059:1291" ph="/// возвращает сгенерированный лист цветов ... " />
+                <marker date="1514142375001" expanded="true" signature="1361:1973" ph="{...}" />
+                <marker date="1514142375001" expanded="true" signature="1422:1551" ph="{...}" />
+                <marker date="1514142375001" expanded="true" signature="1653:1738" ph="{...}" />
+                <marker date="1514142375001" expanded="true" signature="1839:1923" ph="{...}" />
+                <marker date="1514142375001" expanded="true" signature="1983:2096" ph="/// Получаем цвет из заданого списка ... " />
+                <marker date="1514142375001" expanded="true" signature="2145:2338" ph="{...}" />
+                <marker date="1514142375001" expanded="true" signature="2348:2537" ph="/// Сгенерировать один цвет ... " />
+                <marker date="1514142375001" expanded="true" signature="2721:3225" ph="{...}" />
+                <marker date="1514142375001" expanded="true" signature="2811:2863" ph="{...}" />
+                <marker date="1514142375001" expanded="true" signature="3243:3412" ph="/// Сгенерировать один цвет для колец ... " />
+                <marker date="1514142375001" expanded="true" signature="3497:3875" ph="{...}" />
+                <marker date="1514142375001" expanded="true" signature="3885:4084" ph="/// Узнать есть ли такой цвет в листе ... " />
+                <marker date="1514142375001" expanded="true" signature="4146:4378" ph="{...}" />
+                <marker date="1514142375001" expanded="true" signature="4196:4342" ph="{...}" />
+                <marker date="1514142375001" expanded="true" signature="4259:4328" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -101,86 +106,91 @@
       <file leaf-file-name="PlayerConroller.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerConroller.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="732">
+              <caret line="145" column="31" lean-forward="false" selection-start-line="145" selection-start-column="31" selection-end-line="145" selection-end-column="31" />
               <folding>
-                <marker date="1514142254260" expanded="false" signature="6:91" ph="..." />
-                <marker date="1514142254260" expanded="true" signature="105:7676" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="112:184" ph="/// Класс описывающий работу игрока ... " />
-                <marker date="1514142254260" expanded="true" signature="233:7674" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="248:312" ph="/// Физический слой ... " />
-                <marker date="1514142254260" expanded="true" signature="365:431" ph="/// Стартовая позиция ... " />
-                <marker date="1514142254260" expanded="true" signature="480:606" ph="/// Количество нажатий, переменная используется для отслеживания двойного нажатия ... " />
-                <marker date="1514142254260" expanded="true" signature="658:746" ph="/// Задержка, дельта между двойным нажатием ... " />
-                <marker date="1514142254260" expanded="true" signature="799:904" ph="/// Переменная засикающая время, для отслеживания переменных ... " />
-                <marker date="1514142254260" expanded="true" signature="945:1013" ph="/// Перемещаемый объект ... " />
-                <marker date="1514142254260" expanded="true" signature="1059:1155" ph="/// Показывает статус объекта, перемещается или нет ... " />
-                <marker date="1514142254260" expanded="true" signature="1198:1276" ph="/// Отрабатывается перед 1 кадрос ... " />
-                <marker date="1514142254260" expanded="true" signature="1297:1367" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="1385:1468" ph="/// Отрабатывает каждые кадр отрисовки ... " />
-                <marker date="1514142254260" expanded="true" signature="1553:1770" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="1780:1876" ph="/// Метод взаимодействия с объектами с помощью мыши ... " />
-                <marker date="1514142254260" expanded="true" signature="1913:3494" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="1998:2153" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="2064:2139" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="2223:2367" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="2269:2353" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="2441:2500" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="2514:3484" ph="DoubleTap" />
-                <marker date="1514142254260" expanded="true" signature="2897:3365" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="2974:3067" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="3130:3351" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="3402:3460" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="3513:3649" ph="/// Сенсорные экраны ... " />
-                <marker date="1514142254260" expanded="true" signature="3681:6499" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="3767:5449" ph="Обработка нажатий пальцев" />
-                <marker date="1514142254260" expanded="true" signature="3934:5425" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="4104:4203" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="4349:4464" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="4649:4764" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="5463:6489" ph="DoubleTap" />
-                <marker date="1514142254260" expanded="true" signature="5802:6370" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="5879:5972" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="6035:6356" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="6407:6465" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="6509:6644" ph="/// Возвращает есть ли объект под пальцем в момент нажатия ... " />
-                <marker date="1514142254260" expanded="true" signature="6685:7052" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="6855:7016" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="7062:7137" ph="/// Возвращает объект на место ... " />
-                <marker date="1514142254260" expanded="true" signature="7164:7374" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="7202:7254" ph="{...}" />
-                <marker date="1514142254260" expanded="true" signature="7384:7486" ph="/// Перемещение объекта в позицию мыши или нажатия пальца ... " />
-                <marker date="1514142254260" expanded="true" signature="7523:7668" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="6:91" ph="..." />
+                <marker date="1514168601748" expanded="true" signature="105:8360" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="112:184" ph="/// Класс описывающий работу игрока ... " />
+                <marker date="1514168601748" expanded="true" signature="233:8358" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="248:312" ph="/// Физический слой ... " />
+                <marker date="1514168601748" expanded="false" signature="365:431" ph="/// Стартовая позиция ... " />
+                <marker date="1514168601748" expanded="false" signature="480:606" ph="/// Количество нажатий, переменная используется для отслеживания двойного нажатия ... " />
+                <marker date="1514168601748" expanded="false" signature="658:746" ph="/// Задержка, дельта между двойным нажатием ... " />
+                <marker date="1514168601748" expanded="false" signature="799:904" ph="/// Переменная засикающая время, для отслеживания переменных ... " />
+                <marker date="1514168601748" expanded="false" signature="945:1037" ph="/// Переменна для отслеживания перемещения мыши ... " />
+                <marker date="1514168601748" expanded="false" signature="1106:1174" ph="/// Перемещаемый объект ... " />
+                <marker date="1514168601748" expanded="false" signature="1220:1316" ph="/// Показывает статус объекта, перемещается или нет ... " />
+                <marker date="1514168601748" expanded="false" signature="1359:1437" ph="/// Отрабатывается перед 1 кадрос ... " />
+                <marker date="1514168601748" expanded="false" signature="1458:1578" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="1596:1679" ph="/// Отрабатывает каждые кадр отрисовки ... " />
+                <marker date="1514168601748" expanded="false" signature="1764:1981" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="1991:2077" ph="/// Отарабатывает в конце отрисовки кадра ... " />
+                <marker date="1514168601748" expanded="false" signature="2111:2177" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="2187:2296" ph="/// Проверяем двигается ли мышка ... " />
+                <marker date="1514168601748" expanded="true" signature="2324:2427" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="2446:2542" ph="/// Метод взаимодействия с объектами с помощью мыши ... " />
+                <marker date="1514168601748" expanded="false" signature="2579:4178" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="2664:2819" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="2730:2805" ph="{...}" />
+                <marker date="1514168601748" expanded="true" signature="2889:3051" ph="{...}" />
+                <marker date="1514168601748" expanded="true" signature="2953:3037" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="3125:3184" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="3198:4168" ph="DoubleTap" />
+                <marker date="1514168601748" expanded="false" signature="3581:4049" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="3658:3751" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="3814:4035" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="4086:4144" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="4197:4333" ph="/// Сенсорные экраны ... " />
+                <marker date="1514168601748" expanded="false" signature="4365:7183" ph="{...}" />
+                <marker date="1514168601748" expanded="true" signature="4451:6133" ph="Обработка нажатий пальцев" />
+                <marker date="1514168601748" expanded="true" signature="4618:6109" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="4788:4887" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="5033:5148" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="5333:5448" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="6147:7173" ph="DoubleTap" />
+                <marker date="1514168601748" expanded="false" signature="6486:7054" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="6563:6656" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="6719:7040" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="7091:7149" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="7193:7328" ph="/// Возвращает есть ли объект под пальцем в момент нажатия ... " />
+                <marker date="1514168601748" expanded="false" signature="7369:7736" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="7539:7700" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="7746:7821" ph="/// Возвращает объект на место ... " />
+                <marker date="1514168601748" expanded="false" signature="7848:8058" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="7886:7938" ph="{...}" />
+                <marker date="1514168601748" expanded="false" signature="8068:8170" ph="/// Перемещение объекта в позицию мыши или нажатия пальца ... " />
+                <marker date="1514168601748" expanded="false" signature="8207:8352" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CircleTimer.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CircleTimer.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CircleTimer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="68" column="8" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
               <folding>
-                <marker date="1514142054412" expanded="true" signature="6:66" ph="..." />
-                <marker date="1514142054412" expanded="true" signature="80:2325" ph="{...}" />
-                <marker date="1514142054412" expanded="true" signature="87:146" ph="/// Кругляшки, таймеры ... " />
-                <marker date="1514142054412" expanded="true" signature="190:2323" ph="{...}" />
-                <marker date="1514142054412" expanded="true" signature="205:262" ph="/// Картинка ... " />
-                <marker date="1514142054412" expanded="true" signature="357:459" ph="/// Переменная для манипулирования переменной Fill Amount ... " />
-                <marker date="1514142054412" expanded="true" signature="505:616" ph="/// Получить число рандомное число ... " />
-                <marker date="1514142054412" expanded="true" signature="641:851" ph="{...}" />
-                <marker date="1514142054412" expanded="true" signature="870:951" ph="/// Свойство для значения FillAmount ... " />
-                <marker date="1514142054412" expanded="true" signature="981:1166" ph="{...}" />
-                <marker date="1514142054412" expanded="true" signature="1044:1156" ph="{...}" />
-                <marker date="1514142054412" expanded="true" signature="1176:1246" ph="/// Отрабатывает в начале ... " />
-                <marker date="1514142054412" expanded="true" signature="1275:1319" ph="{...}" />
-                <marker date="1514142054412" expanded="true" signature="1337:1402" ph="/// Включить таймеры ... " />
-                <marker date="1514142054412" expanded="true" signature="1427:1557" ph="{...}" />
-                <marker date="1514142054412" expanded="true" signature="1576:1774" ph="/// Отдельный поток, для таймера, в кончце работы перезагружается и меняет цвет. ... " />
-                <marker date="1514142054412" expanded="true" signature="1907:2316" ph="{...}" />
-                <marker date="1514142054412" expanded="true" signature="1942:2306" ph="{...}" />
-                <marker date="1514142054412" expanded="true" signature="2086:2276" ph="{...}" />
+                <marker date="1514170050488" expanded="false" signature="6:66" ph="..." />
+                <marker date="1514170050488" expanded="true" signature="80:2236" ph="{...}" />
+                <marker date="1514170050488" expanded="false" signature="87:146" ph="/// Кругляшки, таймеры ... " />
+                <marker date="1514170050488" expanded="true" signature="190:2234" ph="{...}" />
+                <marker date="1514170050488" expanded="false" signature="205:262" ph="/// Картинка ... " />
+                <marker date="1514170050488" expanded="false" signature="357:459" ph="/// Переменная для манипулирования переменной Fill Amount ... " />
+                <marker date="1514170050488" expanded="false" signature="505:616" ph="/// Получить число рандомное число ... " />
+                <marker date="1514170050488" expanded="false" signature="641:851" ph="{...}" />
+                <marker date="1514170050488" expanded="false" signature="870:951" ph="/// Свойство для значения FillAmount ... " />
+                <marker date="1514170050488" expanded="false" signature="981:1166" ph="{...}" />
+                <marker date="1514170050488" expanded="false" signature="1044:1156" ph="{...}" />
+                <marker date="1514170050488" expanded="false" signature="1176:1246" ph="/// Отрабатывает в начале ... " />
+                <marker date="1514170050488" expanded="false" signature="1275:1319" ph="{...}" />
+                <marker date="1514170050488" expanded="false" signature="1337:1402" ph="/// Включить таймеры ... " />
+                <marker date="1514170050488" expanded="false" signature="1427:1557" ph="{...}" />
+                <marker date="1514170050488" expanded="false" signature="1576:1775" ph="/// Отдельный поток, для таймера, в кончце работы перезагружается и меняет цвет. ... " />
+                <marker date="1514170050488" expanded="true" signature="1819:2227" ph="{...}" />
+                <marker date="1514170050488" expanded="true" signature="1854:2217" ph="{...}" />
+                <marker date="1514170050488" expanded="true" signature="1997:2187" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -192,31 +202,17 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1514142254254" expanded="false" signature="6:52" ph="..." />
-                <marker date="1514142254254" expanded="true" signature="67:1005" ph="{...}" />
-                <marker date="1514142254254" expanded="true" signature="74:153" ph="/// Будет хранить в себе исходные данные.  ... " />
-                <marker date="1514142254254" expanded="true" signature="191:1003" ph="{...}" />
-                <marker date="1514142254254" expanded="true" signature="324:658" ph="Singleton" />
-                <marker date="1514142254254" expanded="true" signature="403:639" ph="{...}" />
-                <marker date="1514142254254" expanded="true" signature="467:556" ph="{...}" />
-                <marker date="1514142254254" expanded="true" signature="702:890" ph="{...}" />
-                <marker date="1514142254254" expanded="true" signature="770:844" ph="{...}" />
-                <marker date="1514142254254" expanded="true" signature="920:988" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Timer.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1514118261992" expanded="true" signature="6:78" ph="..." />
-                <marker date="1514118261992" expanded="true" signature="93:219" ph="{...}" />
-                <marker date="1514118261992" expanded="true" signature="100:165" ph="/// Описывает работы таймера ... " />
-                <marker date="1514118261992" expanded="true" signature="189:217" ph="{...}" />
+                <marker date="1514142693053" expanded="false" signature="6:52" ph="..." />
+                <marker date="1514142693053" expanded="true" signature="67:1058" ph="{...}" />
+                <marker date="1514142693053" expanded="true" signature="74:153" ph="/// Будет хранить в себе исходные данные.  ... " />
+                <marker date="1514142693053" expanded="true" signature="191:1056" ph="{...}" />
+                <marker date="1514142693053" expanded="true" signature="307:644" ph="Singleton" />
+                <marker date="1514142693053" expanded="true" signature="388:624" ph="{...}" />
+                <marker date="1514142693053" expanded="true" signature="452:541" ph="{...}" />
+                <marker date="1514142693053" expanded="true" signature="654:721" ph="/// Установка объектов ... " />
+                <marker date="1514142693053" expanded="true" signature="753:941" ph="{...}" />
+                <marker date="1514142693053" expanded="true" signature="821:895" ph="{...}" />
+                <marker date="1514142693053" expanded="true" signature="980:1050" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -225,28 +221,28 @@
       <file leaf-file-name="ScriptableData.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/ScriptableData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-810">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1514142054420" expanded="false" signature="6:173" ph="..." />
-                <marker date="1514142054420" expanded="true" signature="176:239" ph="/// Файл работы с настройками игры ... " />
-                <marker date="1514142054420" expanded="true" signature="368:2829" ph="{...}" />
-                <marker date="1514142054420" expanded="true" signature="456:525" ph="/// Деактивация ScriptableObject ... " />
-                <marker date="1514142054420" expanded="true" signature="554:881" ph="{...}" />
-                <marker date="1514142054420" expanded="true" signature="640:868" ph="{...}" />
-                <marker date="1514142054420" expanded="true" signature="887:978" ph="/// Метод для проверки файла и последующего сохранения ... " />
-                <marker date="1514142054420" expanded="true" signature="998:1281" ph="{...}" />
-                <marker date="1514142054420" expanded="true" signature="1084:1140" ph="{...}" />
-                <marker date="1514142054420" expanded="true" signature="1153:1275" ph="{...}" />
-                <marker date="1514142054420" expanded="true" signature="1291:1376" ph="/// Сохраняет в JSON ... " />
-                <marker date="1514142054420" expanded="true" signature="1402:1455" ph="{...}" />
-                <marker date="1514142054420" expanded="true" signature="1461:1625" ph="/// Читаем Данный из JSON файла и заполняем ScriptableObject ... " />
-                <marker date="1514142054420" expanded="true" signature="1657:2433" ph="{...}" />
-                <marker date="1514142054420" expanded="true" signature="2047:2427" ph="{...}" />
-                <marker date="1514142054420" expanded="true" signature="2140:2316" ph="{...}" />
-                <marker date="1514142054420" expanded="true" signature="2197:2298" ph="{...}" />
-                <marker date="1514142054420" expanded="true" signature="2439:2580" ph="/// Парсит обратнов Color из litJSON ... " />
-                <marker date="1514142054420" expanded="true" signature="2621:2822" ph="{...}" />
+                <marker date="1514142375144" expanded="false" signature="6:173" ph="..." />
+                <marker date="1514142375144" expanded="true" signature="176:239" ph="/// Файл работы с настройками игры ... " />
+                <marker date="1514142375144" expanded="true" signature="368:2829" ph="{...}" />
+                <marker date="1514142375144" expanded="true" signature="456:525" ph="/// Деактивация ScriptableObject ... " />
+                <marker date="1514142375144" expanded="true" signature="554:881" ph="{...}" />
+                <marker date="1514142375144" expanded="true" signature="640:868" ph="{...}" />
+                <marker date="1514142375144" expanded="true" signature="887:978" ph="/// Метод для проверки файла и последующего сохранения ... " />
+                <marker date="1514142375144" expanded="true" signature="998:1281" ph="{...}" />
+                <marker date="1514142375144" expanded="true" signature="1084:1140" ph="{...}" />
+                <marker date="1514142375144" expanded="true" signature="1153:1275" ph="{...}" />
+                <marker date="1514142375144" expanded="true" signature="1291:1376" ph="/// Сохраняет в JSON ... " />
+                <marker date="1514142375144" expanded="true" signature="1402:1455" ph="{...}" />
+                <marker date="1514142375144" expanded="true" signature="1461:1625" ph="/// Читаем Данный из JSON файла и заполняем ScriptableObject ... " />
+                <marker date="1514142375144" expanded="true" signature="1657:2433" ph="{...}" />
+                <marker date="1514142375144" expanded="true" signature="2047:2427" ph="{...}" />
+                <marker date="1514142375144" expanded="true" signature="2140:2316" ph="{...}" />
+                <marker date="1514142375144" expanded="true" signature="2197:2298" ph="{...}" />
+                <marker date="1514142375144" expanded="true" signature="2439:2580" ph="/// Парсит обратнов Color из litJSON ... " />
+                <marker date="1514142375144" expanded="true" signature="2621:2822" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -264,13 +260,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/ScriptableData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerConroller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CircleTimer.cs" />
       </list>
     </option>
   </component>
@@ -281,10 +277,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="100" />
-    <option name="y" value="299" />
-    <option name="width" value="1920" />
-    <option name="height" value="788" />
+    <option name="x" value="1576" />
+    <option name="width" value="991" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -307,32 +302,6 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="EzCraft (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="EzCraft (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="EzCraft (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="EzCraft (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="EzCraft (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Data" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -373,11 +342,12 @@
       <option name="presentableId" value="Default" />
       <updated>1514118450275</updated>
       <workItem from="1514118453827" duration="4162000" />
+      <workItem from="1514167510034" duration="2550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4264000" />
+    <option name="totallyTimeSpent" value="6814000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,26 +360,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21505377" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09340223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -421,363 +392,40 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CircleTimer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1514118261992" expanded="true" signature="6:78" ph="..." />
-            <marker date="1514118261992" expanded="true" signature="93:219" ph="{...}" />
-            <marker date="1514118261992" expanded="true" signature="100:165" ph="/// Описывает работы таймера ... " />
-            <marker date="1514118261992" expanded="true" signature="189:217" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1514142054429" expanded="true" signature="6:87" ph="..." />
-            <marker date="1514142054429" expanded="true" signature="101:4386" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="108:182" ph="/// Содержит в себе генераторы цветов ... " />
-            <marker date="1514142054429" expanded="true" signature="209:4384" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="224:302" ph="/// Заполняем массив из заданного ... " />
-            <marker date="1514142054429" expanded="true" signature="423:563" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="577:745" ph="/// Установить элементы в массив ... " />
-            <marker date="1514142054429" expanded="true" signature="812:1049" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="957:1039" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="1059:1291" ph="/// возвращает сгенерированный лист цветов ... " />
-            <marker date="1514142054429" expanded="true" signature="1361:1973" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="1422:1551" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="1653:1738" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="1839:1923" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="1983:2096" ph="/// Получаем цвет из заданого списка ... " />
-            <marker date="1514142054429" expanded="true" signature="2145:2338" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="2348:2537" ph="/// Сгенерировать один цвет ... " />
-            <marker date="1514142054429" expanded="true" signature="2721:3225" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="2811:2863" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="3243:3412" ph="/// Сгенерировать один цвет для колец ... " />
-            <marker date="1514142054429" expanded="true" signature="3497:3875" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="3885:4084" ph="/// Узнать есть ли такой цвет в листе ... " />
-            <marker date="1514142054429" expanded="true" signature="4146:4378" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="4196:4342" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="4259:4328" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Element.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1514118261975" expanded="true" signature="6:92" ph="..." />
-            <marker date="1514118261975" expanded="true" signature="107:855" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="148:853" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="354:447" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="402:443" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="465:536" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="583:850" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="623:846" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="708:770" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="779:841" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
-          <folding>
-            <marker date="1514142254247" expanded="false" signature="6:100" ph="..." />
-            <marker date="1514142254247" expanded="true" signature="114:2315" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="164:2313" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="179:234" ph="/// Кубики ... " />
-            <marker date="1514142254247" expanded="true" signature="279:334" ph="/// Шарики ... " />
-            <marker date="1514142254247" expanded="true" signature="400:578" ph="UI" />
-            <marker date="1514142254247" expanded="true" signature="652:1005" ph="Singleton" />
-            <marker date="1514142254247" expanded="true" signature="749:985" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="813:902" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="1018:1088" ph="/// увеличиваем счет на 1 ... " />
-            <marker date="1514142254247" expanded="true" signature="1119:1207" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="1246:1408" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="1447:1537" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="1547:1612" ph="/// Запустить таймер ... " />
-            <marker date="1514142254247" expanded="true" signature="1645:1726" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="1744:1898" ph="/// Отдельный поток для таймера. ... " />
-            <marker date="1514142254247" expanded="true" signature="1941:2295" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="1976:2285" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="2162:2267" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerConroller.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="93" column="66" lean-forward="true" selection-start-line="93" selection-start-column="66" selection-end-line="93" selection-end-column="66" />
-          <folding>
-            <marker date="1514142254260" expanded="false" signature="6:91" ph="..." />
-            <marker date="1514142254260" expanded="true" signature="105:7676" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="112:184" ph="/// Класс описывающий работу игрока ... " />
-            <marker date="1514142254260" expanded="true" signature="233:7674" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="248:312" ph="/// Физический слой ... " />
-            <marker date="1514142254260" expanded="true" signature="365:431" ph="/// Стартовая позиция ... " />
-            <marker date="1514142254260" expanded="true" signature="480:606" ph="/// Количество нажатий, переменная используется для отслеживания двойного нажатия ... " />
-            <marker date="1514142254260" expanded="true" signature="658:746" ph="/// Задержка, дельта между двойным нажатием ... " />
-            <marker date="1514142254260" expanded="true" signature="799:904" ph="/// Переменная засикающая время, для отслеживания переменных ... " />
-            <marker date="1514142254260" expanded="true" signature="945:1013" ph="/// Перемещаемый объект ... " />
-            <marker date="1514142254260" expanded="true" signature="1059:1155" ph="/// Показывает статус объекта, перемещается или нет ... " />
-            <marker date="1514142254260" expanded="true" signature="1198:1276" ph="/// Отрабатывается перед 1 кадрос ... " />
-            <marker date="1514142254260" expanded="true" signature="1297:1367" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="1385:1468" ph="/// Отрабатывает каждые кадр отрисовки ... " />
-            <marker date="1514142254260" expanded="true" signature="1553:1770" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="1780:1876" ph="/// Метод взаимодействия с объектами с помощью мыши ... " />
-            <marker date="1514142254260" expanded="true" signature="1913:3494" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="1998:2153" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="2064:2139" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="2223:2367" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="2269:2353" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="2441:2500" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="2514:3484" ph="DoubleTap" />
-            <marker date="1514142254260" expanded="true" signature="2897:3365" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="2974:3067" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="3130:3351" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="3402:3460" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="3513:3649" ph="/// Сенсорные экраны ... " />
-            <marker date="1514142254260" expanded="true" signature="3681:6499" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="3767:5449" ph="Обработка нажатий пальцев" />
-            <marker date="1514142254260" expanded="true" signature="3934:5425" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="4104:4203" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="4349:4464" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="4649:4764" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="5463:6489" ph="DoubleTap" />
-            <marker date="1514142254260" expanded="true" signature="5802:6370" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="5879:5972" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="6035:6356" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="6407:6465" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="6509:6644" ph="/// Возвращает есть ли объект под пальцем в момент нажатия ... " />
-            <marker date="1514142254260" expanded="true" signature="6685:7052" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="6855:7016" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="7062:7137" ph="/// Возвращает объект на место ... " />
-            <marker date="1514142254260" expanded="true" signature="7164:7374" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="7202:7254" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="7384:7486" ph="/// Перемещение объекта в позицию мыши или нажатия пальца ... " />
-            <marker date="1514142254260" expanded="true" signature="7523:7668" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CircleTimer.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1514118261992" expanded="true" signature="6:78" ph="..." />
-            <marker date="1514118261992" expanded="true" signature="93:219" ph="{...}" />
-            <marker date="1514118261992" expanded="true" signature="100:165" ph="/// Описывает работы таймера ... " />
-            <marker date="1514118261992" expanded="true" signature="189:217" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1514142054429" expanded="true" signature="6:87" ph="..." />
-            <marker date="1514142054429" expanded="true" signature="101:4386" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="108:182" ph="/// Содержит в себе генераторы цветов ... " />
-            <marker date="1514142054429" expanded="true" signature="209:4384" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="224:302" ph="/// Заполняем массив из заданного ... " />
-            <marker date="1514142054429" expanded="true" signature="423:563" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="577:745" ph="/// Установить элементы в массив ... " />
-            <marker date="1514142054429" expanded="true" signature="812:1049" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="957:1039" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="1059:1291" ph="/// возвращает сгенерированный лист цветов ... " />
-            <marker date="1514142054429" expanded="true" signature="1361:1973" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="1422:1551" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="1653:1738" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="1839:1923" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="1983:2096" ph="/// Получаем цвет из заданого списка ... " />
-            <marker date="1514142054429" expanded="true" signature="2145:2338" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="2348:2537" ph="/// Сгенерировать один цвет ... " />
-            <marker date="1514142054429" expanded="true" signature="2721:3225" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="2811:2863" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="3243:3412" ph="/// Сгенерировать один цвет для колец ... " />
-            <marker date="1514142054429" expanded="true" signature="3497:3875" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="3885:4084" ph="/// Узнать есть ли такой цвет в листе ... " />
-            <marker date="1514142054429" expanded="true" signature="4146:4378" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="4196:4342" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="4259:4328" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Element.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1514118261975" expanded="true" signature="6:92" ph="..." />
-            <marker date="1514118261975" expanded="true" signature="107:855" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="148:853" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="354:447" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="402:443" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="465:536" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="583:850" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="623:846" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="708:770" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="779:841" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
-          <folding>
-            <marker date="1514142254247" expanded="false" signature="6:100" ph="..." />
-            <marker date="1514142254247" expanded="true" signature="114:2315" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="164:2313" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="179:234" ph="/// Кубики ... " />
-            <marker date="1514142254247" expanded="true" signature="279:334" ph="/// Шарики ... " />
-            <marker date="1514142254247" expanded="true" signature="400:578" ph="UI" />
-            <marker date="1514142254247" expanded="true" signature="652:1005" ph="Singleton" />
-            <marker date="1514142254247" expanded="true" signature="749:985" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="813:902" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="1018:1088" ph="/// увеличиваем счет на 1 ... " />
-            <marker date="1514142254247" expanded="true" signature="1119:1207" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="1246:1408" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="1447:1537" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="1547:1612" ph="/// Запустить таймер ... " />
-            <marker date="1514142254247" expanded="true" signature="1645:1726" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="1744:1898" ph="/// Отдельный поток для таймера. ... " />
-            <marker date="1514142254247" expanded="true" signature="1941:2295" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="1976:2285" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="2162:2267" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerConroller.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="93" column="66" lean-forward="false" selection-start-line="93" selection-start-column="66" selection-end-line="93" selection-end-column="66" />
-          <folding>
-            <marker date="1514142254260" expanded="false" signature="6:91" ph="..." />
-            <marker date="1514142254260" expanded="true" signature="105:7676" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="112:184" ph="/// Класс описывающий работу игрока ... " />
-            <marker date="1514142254260" expanded="true" signature="233:7674" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="248:312" ph="/// Физический слой ... " />
-            <marker date="1514142254260" expanded="true" signature="365:431" ph="/// Стартовая позиция ... " />
-            <marker date="1514142254260" expanded="true" signature="480:606" ph="/// Количество нажатий, переменная используется для отслеживания двойного нажатия ... " />
-            <marker date="1514142254260" expanded="true" signature="658:746" ph="/// Задержка, дельта между двойным нажатием ... " />
-            <marker date="1514142254260" expanded="true" signature="799:904" ph="/// Переменная засикающая время, для отслеживания переменных ... " />
-            <marker date="1514142254260" expanded="true" signature="945:1013" ph="/// Перемещаемый объект ... " />
-            <marker date="1514142254260" expanded="true" signature="1059:1155" ph="/// Показывает статус объекта, перемещается или нет ... " />
-            <marker date="1514142254260" expanded="true" signature="1198:1276" ph="/// Отрабатывается перед 1 кадрос ... " />
-            <marker date="1514142254260" expanded="true" signature="1297:1367" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="1385:1468" ph="/// Отрабатывает каждые кадр отрисовки ... " />
-            <marker date="1514142254260" expanded="true" signature="1553:1770" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="1780:1876" ph="/// Метод взаимодействия с объектами с помощью мыши ... " />
-            <marker date="1514142254260" expanded="true" signature="1913:3494" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="1998:2153" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="2064:2139" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="2223:2367" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="2269:2353" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="2441:2500" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="2514:3484" ph="DoubleTap" />
-            <marker date="1514142254260" expanded="true" signature="2897:3365" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="2974:3067" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="3130:3351" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="3402:3460" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="3513:3649" ph="/// Сенсорные экраны ... " />
-            <marker date="1514142254260" expanded="true" signature="3681:6499" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="3767:5449" ph="Обработка нажатий пальцев" />
-            <marker date="1514142254260" expanded="true" signature="3934:5425" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="4104:4203" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="4349:4464" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="4649:4764" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="5463:6489" ph="DoubleTap" />
-            <marker date="1514142254260" expanded="true" signature="5802:6370" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="5879:5972" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="6035:6356" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="6407:6465" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="6509:6644" ph="/// Возвращает есть ли объект под пальцем в момент нажатия ... " />
-            <marker date="1514142254260" expanded="true" signature="6685:7052" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="6855:7016" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="7062:7137" ph="/// Возвращает объект на место ... " />
-            <marker date="1514142254260" expanded="true" signature="7164:7374" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="7202:7254" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="7384:7486" ph="/// Перемещение объекта в позицию мыши или нажатия пальца ... " />
-            <marker date="1514142254260" expanded="true" signature="7523:7668" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1514142254254" expanded="false" signature="6:52" ph="..." />
-            <marker date="1514142254254" expanded="true" signature="67:1005" ph="{...}" />
-            <marker date="1514142254254" expanded="true" signature="74:153" ph="/// Будет хранить в себе исходные данные.  ... " />
-            <marker date="1514142254254" expanded="true" signature="191:1003" ph="{...}" />
-            <marker date="1514142254254" expanded="true" signature="324:658" ph="Singleton" />
-            <marker date="1514142254254" expanded="true" signature="403:639" ph="{...}" />
-            <marker date="1514142254254" expanded="true" signature="467:556" ph="{...}" />
-            <marker date="1514142254254" expanded="true" signature="702:890" ph="{...}" />
-            <marker date="1514142254254" expanded="true" signature="770:844" ph="{...}" />
-            <marker date="1514142254254" expanded="true" signature="920:988" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="52" column="30" lean-forward="false" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
           <folding>
-            <marker date="1514142254247" expanded="false" signature="6:100" ph="..." />
-            <marker date="1514142254247" expanded="true" signature="114:2315" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="164:2313" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="179:234" ph="/// Кубики ... " />
-            <marker date="1514142254247" expanded="true" signature="279:334" ph="/// Шарики ... " />
-            <marker date="1514142254247" expanded="true" signature="400:578" ph="UI" />
-            <marker date="1514142254247" expanded="true" signature="652:1005" ph="Singleton" />
-            <marker date="1514142254247" expanded="true" signature="749:985" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="813:902" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="1018:1088" ph="/// увеличиваем счет на 1 ... " />
-            <marker date="1514142254247" expanded="true" signature="1119:1207" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="1246:1408" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="1447:1537" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="1547:1612" ph="/// Запустить таймер ... " />
-            <marker date="1514142254247" expanded="true" signature="1645:1726" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="1744:1898" ph="/// Отдельный поток для таймера. ... " />
-            <marker date="1514142254247" expanded="true" signature="1941:2295" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="1976:2285" ph="{...}" />
-            <marker date="1514142254247" expanded="true" signature="2162:2267" ph="{...}" />
+            <marker date="1514142693064" expanded="false" signature="6:100" ph="..." />
+            <marker date="1514142693064" expanded="true" signature="114:2747" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="164:2745" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="179:234" ph="/// Кубики ... " />
+            <marker date="1514142693064" expanded="true" signature="279:334" ph="/// Шарики ... " />
+            <marker date="1514142693064" expanded="true" signature="446:923" ph="UI" />
+            <marker date="1514142693064" expanded="true" signature="554:843" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="615:833" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="747:819" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="941:1294" ph="Singleton" />
+            <marker date="1514142693064" expanded="true" signature="1038:1274" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1102:1191" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1307:1377" ph="/// увеличиваем счет на 1 ... " />
+            <marker date="1514142693064" expanded="true" signature="1408:1449" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1461:1532" ph="/// увеличиваем счет на 10 ... " />
+            <marker date="1514142693064" expanded="true" signature="1567:1615" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1645:1820" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1859:2007" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="2017:2082" ph="/// Запустить таймер ... " />
+            <marker date="1514142693064" expanded="true" signature="2115:2174" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="2192:2346" ph="/// Отдельный поток для таймера. ... " />
+            <marker date="1514142693064" expanded="true" signature="2376:2727" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="2411:2717" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="2594:2699" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -787,31 +435,31 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1514142054429" expanded="true" signature="6:87" ph="..." />
-            <marker date="1514142054429" expanded="true" signature="101:4386" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="108:182" ph="/// Содержит в себе генераторы цветов ... " />
-            <marker date="1514142054429" expanded="true" signature="209:4384" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="224:302" ph="/// Заполняем массив из заданного ... " />
-            <marker date="1514142054429" expanded="true" signature="423:563" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="577:745" ph="/// Установить элементы в массив ... " />
-            <marker date="1514142054429" expanded="true" signature="812:1049" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="957:1039" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="1059:1291" ph="/// возвращает сгенерированный лист цветов ... " />
-            <marker date="1514142054429" expanded="true" signature="1361:1973" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="1422:1551" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="1653:1738" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="1839:1923" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="1983:2096" ph="/// Получаем цвет из заданого списка ... " />
-            <marker date="1514142054429" expanded="true" signature="2145:2338" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="2348:2537" ph="/// Сгенерировать один цвет ... " />
-            <marker date="1514142054429" expanded="true" signature="2721:3225" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="2811:2863" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="3243:3412" ph="/// Сгенерировать один цвет для колец ... " />
-            <marker date="1514142054429" expanded="true" signature="3497:3875" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="3885:4084" ph="/// Узнать есть ли такой цвет в листе ... " />
-            <marker date="1514142054429" expanded="true" signature="4146:4378" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="4196:4342" ph="{...}" />
-            <marker date="1514142054429" expanded="true" signature="4259:4328" ph="{...}" />
+            <marker date="1514142375001" expanded="false" signature="6:87" ph="..." />
+            <marker date="1514142375001" expanded="true" signature="101:4386" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="108:182" ph="/// Содержит в себе генераторы цветов ... " />
+            <marker date="1514142375001" expanded="true" signature="209:4384" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="224:302" ph="/// Заполняем массив из заданного ... " />
+            <marker date="1514142375001" expanded="true" signature="423:563" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="577:745" ph="/// Установить элементы в массив ... " />
+            <marker date="1514142375001" expanded="true" signature="812:1049" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="957:1039" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1059:1291" ph="/// возвращает сгенерированный лист цветов ... " />
+            <marker date="1514142375001" expanded="true" signature="1361:1973" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1422:1551" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1653:1738" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1839:1923" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1983:2096" ph="/// Получаем цвет из заданого списка ... " />
+            <marker date="1514142375001" expanded="true" signature="2145:2338" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="2348:2537" ph="/// Сгенерировать один цвет ... " />
+            <marker date="1514142375001" expanded="true" signature="2721:3225" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="2811:2863" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="3243:3412" ph="/// Сгенерировать один цвет для колец ... " />
+            <marker date="1514142375001" expanded="true" signature="3497:3875" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="3885:4084" ph="/// Узнать есть ли такой цвет в листе ... " />
+            <marker date="1514142375001" expanded="true" signature="4146:4378" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="4196:4342" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="4259:4328" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -821,53 +469,78 @@
         <state relative-caret-position="600">
           <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <marker date="1514142254260" expanded="false" signature="6:91" ph="..." />
-            <marker date="1514142254260" expanded="true" signature="105:7676" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="112:184" ph="/// Класс описывающий работу игрока ... " />
-            <marker date="1514142254260" expanded="true" signature="233:7674" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="248:312" ph="/// Физический слой ... " />
-            <marker date="1514142254260" expanded="true" signature="365:431" ph="/// Стартовая позиция ... " />
-            <marker date="1514142254260" expanded="true" signature="480:606" ph="/// Количество нажатий, переменная используется для отслеживания двойного нажатия ... " />
-            <marker date="1514142254260" expanded="true" signature="658:746" ph="/// Задержка, дельта между двойным нажатием ... " />
-            <marker date="1514142254260" expanded="true" signature="799:904" ph="/// Переменная засикающая время, для отслеживания переменных ... " />
-            <marker date="1514142254260" expanded="true" signature="945:1013" ph="/// Перемещаемый объект ... " />
-            <marker date="1514142254260" expanded="true" signature="1059:1155" ph="/// Показывает статус объекта, перемещается или нет ... " />
-            <marker date="1514142254260" expanded="true" signature="1198:1276" ph="/// Отрабатывается перед 1 кадрос ... " />
-            <marker date="1514142254260" expanded="true" signature="1297:1367" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="1385:1468" ph="/// Отрабатывает каждые кадр отрисовки ... " />
-            <marker date="1514142254260" expanded="true" signature="1553:1770" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="1780:1876" ph="/// Метод взаимодействия с объектами с помощью мыши ... " />
-            <marker date="1514142254260" expanded="true" signature="1913:3494" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="1998:2153" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="2064:2139" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="2223:2367" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="2269:2353" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="2441:2500" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="2514:3484" ph="DoubleTap" />
-            <marker date="1514142254260" expanded="true" signature="2897:3365" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="2974:3067" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="3130:3351" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="3402:3460" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="3513:3649" ph="/// Сенсорные экраны ... " />
-            <marker date="1514142254260" expanded="true" signature="3681:6499" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="3767:5449" ph="Обработка нажатий пальцев" />
-            <marker date="1514142254260" expanded="true" signature="3934:5425" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="4104:4203" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="4349:4464" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="4649:4764" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="5463:6489" ph="DoubleTap" />
-            <marker date="1514142254260" expanded="true" signature="5802:6370" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="5879:5972" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="6035:6356" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="6407:6465" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="6509:6644" ph="/// Возвращает есть ли объект под пальцем в момент нажатия ... " />
-            <marker date="1514142254260" expanded="true" signature="6685:7052" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="6855:7016" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="7062:7137" ph="/// Возвращает объект на место ... " />
-            <marker date="1514142254260" expanded="true" signature="7164:7374" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="7202:7254" ph="{...}" />
-            <marker date="1514142254260" expanded="true" signature="7384:7486" ph="/// Перемещение объекта в позицию мыши или нажатия пальца ... " />
-            <marker date="1514142254260" expanded="true" signature="7523:7668" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="6:91" ph="..." />
+            <marker date="1514168601748" expanded="true" signature="105:8360" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="112:184" ph="/// Класс описывающий работу игрока ... " />
+            <marker date="1514168601748" expanded="true" signature="233:8358" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="248:312" ph="/// Физический слой ... " />
+            <marker date="1514168601748" expanded="false" signature="365:431" ph="/// Стартовая позиция ... " />
+            <marker date="1514168601748" expanded="false" signature="480:606" ph="/// Количество нажатий, переменная используется для отслеживания двойного нажатия ... " />
+            <marker date="1514168601748" expanded="false" signature="658:746" ph="/// Задержка, дельта между двойным нажатием ... " />
+            <marker date="1514168601748" expanded="false" signature="799:904" ph="/// Переменная засикающая время, для отслеживания переменных ... " />
+            <marker date="1514168601748" expanded="false" signature="945:1037" ph="/// Переменна для отслеживания перемещения мыши ... " />
+            <marker date="1514168601748" expanded="false" signature="1106:1174" ph="/// Перемещаемый объект ... " />
+            <marker date="1514168601748" expanded="false" signature="1220:1316" ph="/// Показывает статус объекта, перемещается или нет ... " />
+            <marker date="1514168601748" expanded="false" signature="1359:1437" ph="/// Отрабатывается перед 1 кадрос ... " />
+            <marker date="1514168601748" expanded="false" signature="1458:1578" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="1596:1679" ph="/// Отрабатывает каждые кадр отрисовки ... " />
+            <marker date="1514168601748" expanded="false" signature="1764:1981" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="1991:2077" ph="/// Отарабатывает в конце отрисовки кадра ... " />
+            <marker date="1514168601748" expanded="false" signature="2111:2177" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="2187:2296" ph="/// Проверяем двигается ли мышка ... " />
+            <marker date="1514168601748" expanded="true" signature="2324:2427" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="2446:2542" ph="/// Метод взаимодействия с объектами с помощью мыши ... " />
+            <marker date="1514168601748" expanded="false" signature="2579:4178" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="2664:2819" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="2730:2805" ph="{...}" />
+            <marker date="1514168601748" expanded="true" signature="2889:3051" ph="{...}" />
+            <marker date="1514168601748" expanded="true" signature="2953:3037" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="3125:3184" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="3198:4168" ph="DoubleTap" />
+            <marker date="1514168601748" expanded="false" signature="3581:4049" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="3658:3751" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="3814:4035" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="4086:4144" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="4197:4333" ph="/// Сенсорные экраны ... " />
+            <marker date="1514168601748" expanded="false" signature="4365:7183" ph="{...}" />
+            <marker date="1514168601748" expanded="true" signature="4451:6133" ph="Обработка нажатий пальцев" />
+            <marker date="1514168601748" expanded="true" signature="4618:6109" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="4788:4887" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="5033:5148" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="5333:5448" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="6147:7173" ph="DoubleTap" />
+            <marker date="1514168601748" expanded="false" signature="6486:7054" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="6563:6656" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="6719:7040" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7091:7149" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7193:7328" ph="/// Возвращает есть ли объект под пальцем в момент нажатия ... " />
+            <marker date="1514168601748" expanded="false" signature="7369:7736" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7539:7700" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7746:7821" ph="/// Возвращает объект на место ... " />
+            <marker date="1514168601748" expanded="false" signature="7848:8058" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7886:7938" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="8068:8170" ph="/// Перемещение объекта в позицию мыши или нажатия пальца ... " />
+            <marker date="1514168601748" expanded="false" signature="8207:8352" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1514142693053" expanded="false" signature="6:52" ph="..." />
+            <marker date="1514142693053" expanded="true" signature="67:1058" ph="{...}" />
+            <marker date="1514142693053" expanded="true" signature="74:153" ph="/// Будет хранить в себе исходные данные.  ... " />
+            <marker date="1514142693053" expanded="true" signature="191:1056" ph="{...}" />
+            <marker date="1514142693053" expanded="true" signature="307:644" ph="Singleton" />
+            <marker date="1514142693053" expanded="true" signature="388:624" ph="{...}" />
+            <marker date="1514142693053" expanded="true" signature="452:541" ph="{...}" />
+            <marker date="1514142693053" expanded="true" signature="654:721" ph="/// Установка объектов ... " />
+            <marker date="1514142693053" expanded="true" signature="753:941" ph="{...}" />
+            <marker date="1514142693053" expanded="true" signature="821:895" ph="{...}" />
+            <marker date="1514142693053" expanded="true" signature="980:1050" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -876,67 +549,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1514118261992" expanded="true" signature="6:78" ph="..." />
-            <marker date="1514118261992" expanded="true" signature="93:219" ph="{...}" />
-            <marker date="1514118261992" expanded="true" signature="100:165" ph="/// Описывает работы таймера ... " />
-            <marker date="1514118261992" expanded="true" signature="189:217" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/ScriptableData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-810">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1514142054420" expanded="false" signature="6:173" ph="..." />
-            <marker date="1514142054420" expanded="true" signature="176:239" ph="/// Файл работы с настройками игры ... " />
-            <marker date="1514142054420" expanded="true" signature="368:2829" ph="{...}" />
-            <marker date="1514142054420" expanded="true" signature="456:525" ph="/// Деактивация ScriptableObject ... " />
-            <marker date="1514142054420" expanded="true" signature="554:881" ph="{...}" />
-            <marker date="1514142054420" expanded="true" signature="640:868" ph="{...}" />
-            <marker date="1514142054420" expanded="true" signature="887:978" ph="/// Метод для проверки файла и последующего сохранения ... " />
-            <marker date="1514142054420" expanded="true" signature="998:1281" ph="{...}" />
-            <marker date="1514142054420" expanded="true" signature="1084:1140" ph="{...}" />
-            <marker date="1514142054420" expanded="true" signature="1153:1275" ph="{...}" />
-            <marker date="1514142054420" expanded="true" signature="1291:1376" ph="/// Сохраняет в JSON ... " />
-            <marker date="1514142054420" expanded="true" signature="1402:1455" ph="{...}" />
-            <marker date="1514142054420" expanded="true" signature="1461:1625" ph="/// Читаем Данный из JSON файла и заполняем ScriptableObject ... " />
-            <marker date="1514142054420" expanded="true" signature="1657:2433" ph="{...}" />
-            <marker date="1514142054420" expanded="true" signature="2047:2427" ph="{...}" />
-            <marker date="1514142054420" expanded="true" signature="2140:2316" ph="{...}" />
-            <marker date="1514142054420" expanded="true" signature="2197:2298" ph="{...}" />
-            <marker date="1514142054420" expanded="true" signature="2439:2580" ph="/// Парсит обратнов Color из litJSON ... " />
-            <marker date="1514142054420" expanded="true" signature="2621:2822" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CircleTimer.cs">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1514142054412" expanded="true" signature="6:66" ph="..." />
-            <marker date="1514142054412" expanded="true" signature="80:2325" ph="{...}" />
-            <marker date="1514142054412" expanded="true" signature="87:146" ph="/// Кругляшки, таймеры ... " />
-            <marker date="1514142054412" expanded="true" signature="190:2323" ph="{...}" />
-            <marker date="1514142054412" expanded="true" signature="205:262" ph="/// Картинка ... " />
-            <marker date="1514142054412" expanded="true" signature="357:459" ph="/// Переменная для манипулирования переменной Fill Amount ... " />
-            <marker date="1514142054412" expanded="true" signature="505:616" ph="/// Получить число рандомное число ... " />
-            <marker date="1514142054412" expanded="true" signature="641:851" ph="{...}" />
-            <marker date="1514142054412" expanded="true" signature="870:951" ph="/// Свойство для значения FillAmount ... " />
-            <marker date="1514142054412" expanded="true" signature="981:1166" ph="{...}" />
-            <marker date="1514142054412" expanded="true" signature="1044:1156" ph="{...}" />
-            <marker date="1514142054412" expanded="true" signature="1176:1246" ph="/// Отрабатывает в начале ... " />
-            <marker date="1514142054412" expanded="true" signature="1275:1319" ph="{...}" />
-            <marker date="1514142054412" expanded="true" signature="1337:1402" ph="/// Включить таймеры ... " />
-            <marker date="1514142054412" expanded="true" signature="1427:1557" ph="{...}" />
-            <marker date="1514142054412" expanded="true" signature="1576:1774" ph="/// Отдельный поток, для таймера, в кончце работы перезагружается и меняет цвет. ... " />
-            <marker date="1514142054412" expanded="true" signature="1907:2316" ph="{...}" />
-            <marker date="1514142054412" expanded="true" signature="1942:2306" ph="{...}" />
-            <marker date="1514142054412" expanded="true" signature="2086:2276" ph="{...}" />
+            <marker date="1514142375144" expanded="false" signature="6:173" ph="..." />
+            <marker date="1514142375144" expanded="true" signature="176:239" ph="/// Файл работы с настройками игры ... " />
+            <marker date="1514142375144" expanded="true" signature="368:2829" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="456:525" ph="/// Деактивация ScriptableObject ... " />
+            <marker date="1514142375144" expanded="true" signature="554:881" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="640:868" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="887:978" ph="/// Метод для проверки файла и последующего сохранения ... " />
+            <marker date="1514142375144" expanded="true" signature="998:1281" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="1084:1140" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="1153:1275" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="1291:1376" ph="/// Сохраняет в JSON ... " />
+            <marker date="1514142375144" expanded="true" signature="1402:1455" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="1461:1625" ph="/// Читаем Данный из JSON файла и заполняем ScriptableObject ... " />
+            <marker date="1514142375144" expanded="true" signature="1657:2433" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="2047:2427" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="2140:2316" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="2197:2298" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="2439:2580" ph="/// Парсит обратнов Color из litJSON ... " />
+            <marker date="1514142375144" expanded="true" signature="2621:2822" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -946,16 +586,614 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1514118261975" expanded="true" signature="6:92" ph="..." />
-            <marker date="1514118261975" expanded="true" signature="107:855" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="148:853" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="354:447" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="402:443" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="465:536" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="583:850" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="623:846" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="708:770" ph="{...}" />
-            <marker date="1514118261975" expanded="true" signature="779:841" ph="{...}" />
+            <marker date="1514142374916" expanded="false" signature="6:92" ph="..." />
+            <marker date="1514142374916" expanded="true" signature="107:855" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="148:853" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="354:447" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="402:443" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="465:536" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="583:850" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="623:846" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="708:770" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="779:841" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CircleTimer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1514170050488" expanded="false" signature="6:66" ph="..." />
+            <marker date="1514170050488" expanded="true" signature="80:2236" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="87:146" ph="/// Кругляшки, таймеры ... " />
+            <marker date="1514170050488" expanded="true" signature="190:2234" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="205:262" ph="/// Картинка ... " />
+            <marker date="1514170050488" expanded="false" signature="357:459" ph="/// Переменная для манипулирования переменной Fill Amount ... " />
+            <marker date="1514170050488" expanded="false" signature="505:616" ph="/// Получить число рандомное число ... " />
+            <marker date="1514170050488" expanded="false" signature="641:851" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="870:951" ph="/// Свойство для значения FillAmount ... " />
+            <marker date="1514170050488" expanded="false" signature="981:1166" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="1044:1156" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="1176:1246" ph="/// Отрабатывает в начале ... " />
+            <marker date="1514170050488" expanded="false" signature="1275:1319" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="1337:1402" ph="/// Включить таймеры ... " />
+            <marker date="1514170050488" expanded="false" signature="1427:1557" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="1576:1775" ph="/// Отдельный поток, для таймера, в кончце работы перезагружается и меняет цвет. ... " />
+            <marker date="1514170050488" expanded="true" signature="1819:2227" ph="{...}" />
+            <marker date="1514170050488" expanded="true" signature="1854:2217" ph="{...}" />
+            <marker date="1514170050488" expanded="true" signature="1997:2187" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CircleTimer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1514170050488" expanded="false" signature="6:66" ph="..." />
+            <marker date="1514170050488" expanded="true" signature="80:2236" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="87:146" ph="/// Кругляшки, таймеры ... " />
+            <marker date="1514170050488" expanded="true" signature="190:2234" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="205:262" ph="/// Картинка ... " />
+            <marker date="1514170050488" expanded="false" signature="357:459" ph="/// Переменная для манипулирования переменной Fill Amount ... " />
+            <marker date="1514170050488" expanded="false" signature="505:616" ph="/// Получить число рандомное число ... " />
+            <marker date="1514170050488" expanded="false" signature="641:851" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="870:951" ph="/// Свойство для значения FillAmount ... " />
+            <marker date="1514170050488" expanded="false" signature="981:1166" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="1044:1156" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="1176:1246" ph="/// Отрабатывает в начале ... " />
+            <marker date="1514170050488" expanded="false" signature="1275:1319" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="1337:1402" ph="/// Включить таймеры ... " />
+            <marker date="1514170050488" expanded="false" signature="1427:1557" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="1576:1775" ph="/// Отдельный поток, для таймера, в кончце работы перезагружается и меняет цвет. ... " />
+            <marker date="1514170050488" expanded="true" signature="1819:2227" ph="{...}" />
+            <marker date="1514170050488" expanded="true" signature="1854:2217" ph="{...}" />
+            <marker date="1514170050488" expanded="true" signature="1997:2187" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1514142375001" expanded="false" signature="6:87" ph="..." />
+            <marker date="1514142375001" expanded="true" signature="101:4386" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="108:182" ph="/// Содержит в себе генераторы цветов ... " />
+            <marker date="1514142375001" expanded="true" signature="209:4384" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="224:302" ph="/// Заполняем массив из заданного ... " />
+            <marker date="1514142375001" expanded="true" signature="423:563" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="577:745" ph="/// Установить элементы в массив ... " />
+            <marker date="1514142375001" expanded="true" signature="812:1049" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="957:1039" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1059:1291" ph="/// возвращает сгенерированный лист цветов ... " />
+            <marker date="1514142375001" expanded="true" signature="1361:1973" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1422:1551" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1653:1738" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1839:1923" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1983:2096" ph="/// Получаем цвет из заданого списка ... " />
+            <marker date="1514142375001" expanded="true" signature="2145:2338" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="2348:2537" ph="/// Сгенерировать один цвет ... " />
+            <marker date="1514142375001" expanded="true" signature="2721:3225" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="2811:2863" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="3243:3412" ph="/// Сгенерировать один цвет для колец ... " />
+            <marker date="1514142375001" expanded="true" signature="3497:3875" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="3885:4084" ph="/// Узнать есть ли такой цвет в листе ... " />
+            <marker date="1514142375001" expanded="true" signature="4146:4378" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="4196:4342" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="4259:4328" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Element.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1514142374916" expanded="false" signature="6:92" ph="..." />
+            <marker date="1514142374916" expanded="true" signature="107:855" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="148:853" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="354:447" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="402:443" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="465:536" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="583:850" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="623:846" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="708:770" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="779:841" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+          <folding>
+            <marker date="1514142693064" expanded="false" signature="6:100" ph="..." />
+            <marker date="1514142693064" expanded="true" signature="114:2747" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="164:2745" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="179:234" ph="/// Кубики ... " />
+            <marker date="1514142693064" expanded="true" signature="279:334" ph="/// Шарики ... " />
+            <marker date="1514142693064" expanded="true" signature="446:923" ph="UI" />
+            <marker date="1514142693064" expanded="true" signature="554:843" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="615:833" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="747:819" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="941:1294" ph="Singleton" />
+            <marker date="1514142693064" expanded="true" signature="1038:1274" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1102:1191" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1307:1377" ph="/// увеличиваем счет на 1 ... " />
+            <marker date="1514142693064" expanded="true" signature="1408:1449" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1461:1532" ph="/// увеличиваем счет на 10 ... " />
+            <marker date="1514142693064" expanded="true" signature="1567:1615" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1645:1820" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1859:2007" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="2017:2082" ph="/// Запустить таймер ... " />
+            <marker date="1514142693064" expanded="true" signature="2115:2174" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="2192:2346" ph="/// Отдельный поток для таймера. ... " />
+            <marker date="1514142693064" expanded="true" signature="2376:2727" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="2411:2717" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="2594:2699" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerConroller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="93" column="66" lean-forward="true" selection-start-line="93" selection-start-column="66" selection-end-line="93" selection-end-column="66" />
+          <folding>
+            <marker date="1514168601748" expanded="false" signature="6:91" ph="..." />
+            <marker date="1514168601748" expanded="true" signature="105:8360" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="112:184" ph="/// Класс описывающий работу игрока ... " />
+            <marker date="1514168601748" expanded="true" signature="233:8358" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="248:312" ph="/// Физический слой ... " />
+            <marker date="1514168601748" expanded="false" signature="365:431" ph="/// Стартовая позиция ... " />
+            <marker date="1514168601748" expanded="false" signature="480:606" ph="/// Количество нажатий, переменная используется для отслеживания двойного нажатия ... " />
+            <marker date="1514168601748" expanded="false" signature="658:746" ph="/// Задержка, дельта между двойным нажатием ... " />
+            <marker date="1514168601748" expanded="false" signature="799:904" ph="/// Переменная засикающая время, для отслеживания переменных ... " />
+            <marker date="1514168601748" expanded="false" signature="945:1037" ph="/// Переменна для отслеживания перемещения мыши ... " />
+            <marker date="1514168601748" expanded="false" signature="1106:1174" ph="/// Перемещаемый объект ... " />
+            <marker date="1514168601748" expanded="false" signature="1220:1316" ph="/// Показывает статус объекта, перемещается или нет ... " />
+            <marker date="1514168601748" expanded="false" signature="1359:1437" ph="/// Отрабатывается перед 1 кадрос ... " />
+            <marker date="1514168601748" expanded="false" signature="1458:1578" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="1596:1679" ph="/// Отрабатывает каждые кадр отрисовки ... " />
+            <marker date="1514168601748" expanded="false" signature="1764:1981" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="1991:2077" ph="/// Отарабатывает в конце отрисовки кадра ... " />
+            <marker date="1514168601748" expanded="false" signature="2111:2177" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="2187:2296" ph="/// Проверяем двигается ли мышка ... " />
+            <marker date="1514168601748" expanded="true" signature="2324:2427" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="2446:2542" ph="/// Метод взаимодействия с объектами с помощью мыши ... " />
+            <marker date="1514168601748" expanded="false" signature="2579:4178" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="2664:2819" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="2730:2805" ph="{...}" />
+            <marker date="1514168601748" expanded="true" signature="2889:3051" ph="{...}" />
+            <marker date="1514168601748" expanded="true" signature="2953:3037" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="3125:3184" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="3198:4168" ph="DoubleTap" />
+            <marker date="1514168601748" expanded="false" signature="3581:4049" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="3658:3751" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="3814:4035" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="4086:4144" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="4197:4333" ph="/// Сенсорные экраны ... " />
+            <marker date="1514168601748" expanded="false" signature="4365:7183" ph="{...}" />
+            <marker date="1514168601748" expanded="true" signature="4451:6133" ph="Обработка нажатий пальцев" />
+            <marker date="1514168601748" expanded="true" signature="4618:6109" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="4788:4887" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="5033:5148" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="5333:5448" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="6147:7173" ph="DoubleTap" />
+            <marker date="1514168601748" expanded="false" signature="6486:7054" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="6563:6656" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="6719:7040" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7091:7149" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7193:7328" ph="/// Возвращает есть ли объект под пальцем в момент нажатия ... " />
+            <marker date="1514168601748" expanded="false" signature="7369:7736" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7539:7700" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7746:7821" ph="/// Возвращает объект на место ... " />
+            <marker date="1514168601748" expanded="false" signature="7848:8058" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7886:7938" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="8068:8170" ph="/// Перемещение объекта в позицию мыши или нажатия пальца ... " />
+            <marker date="1514168601748" expanded="false" signature="8207:8352" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CircleTimer.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1514142375001" expanded="false" signature="6:87" ph="..." />
+            <marker date="1514142375001" expanded="true" signature="101:4386" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="108:182" ph="/// Содержит в себе генераторы цветов ... " />
+            <marker date="1514142375001" expanded="true" signature="209:4384" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="224:302" ph="/// Заполняем массив из заданного ... " />
+            <marker date="1514142375001" expanded="true" signature="423:563" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="577:745" ph="/// Установить элементы в массив ... " />
+            <marker date="1514142375001" expanded="true" signature="812:1049" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="957:1039" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1059:1291" ph="/// возвращает сгенерированный лист цветов ... " />
+            <marker date="1514142375001" expanded="true" signature="1361:1973" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1422:1551" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1653:1738" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1839:1923" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1983:2096" ph="/// Получаем цвет из заданого списка ... " />
+            <marker date="1514142375001" expanded="true" signature="2145:2338" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="2348:2537" ph="/// Сгенерировать один цвет ... " />
+            <marker date="1514142375001" expanded="true" signature="2721:3225" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="2811:2863" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="3243:3412" ph="/// Сгенерировать один цвет для колец ... " />
+            <marker date="1514142375001" expanded="true" signature="3497:3875" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="3885:4084" ph="/// Узнать есть ли такой цвет в листе ... " />
+            <marker date="1514142375001" expanded="true" signature="4146:4378" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="4196:4342" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="4259:4328" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Element.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1514142374916" expanded="false" signature="6:92" ph="..." />
+            <marker date="1514142374916" expanded="true" signature="107:855" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="148:853" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="354:447" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="402:443" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="465:536" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="583:850" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="623:846" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="708:770" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="779:841" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+          <folding>
+            <marker date="1514142693064" expanded="false" signature="6:100" ph="..." />
+            <marker date="1514142693064" expanded="true" signature="114:2747" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="164:2745" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="179:234" ph="/// Кубики ... " />
+            <marker date="1514142693064" expanded="true" signature="279:334" ph="/// Шарики ... " />
+            <marker date="1514142693064" expanded="true" signature="446:923" ph="UI" />
+            <marker date="1514142693064" expanded="true" signature="554:843" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="615:833" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="747:819" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="941:1294" ph="Singleton" />
+            <marker date="1514142693064" expanded="true" signature="1038:1274" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1102:1191" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1307:1377" ph="/// увеличиваем счет на 1 ... " />
+            <marker date="1514142693064" expanded="true" signature="1408:1449" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1461:1532" ph="/// увеличиваем счет на 10 ... " />
+            <marker date="1514142693064" expanded="true" signature="1567:1615" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1645:1820" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1859:2007" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="2017:2082" ph="/// Запустить таймер ... " />
+            <marker date="1514142693064" expanded="true" signature="2115:2174" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="2192:2346" ph="/// Отдельный поток для таймера. ... " />
+            <marker date="1514142693064" expanded="true" signature="2376:2727" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="2411:2717" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="2594:2699" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerConroller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="93" column="66" lean-forward="false" selection-start-line="93" selection-start-column="66" selection-end-line="93" selection-end-column="66" />
+          <folding>
+            <marker date="1514168601748" expanded="false" signature="6:91" ph="..." />
+            <marker date="1514168601748" expanded="true" signature="105:8360" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="112:184" ph="/// Класс описывающий работу игрока ... " />
+            <marker date="1514168601748" expanded="true" signature="233:8358" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="248:312" ph="/// Физический слой ... " />
+            <marker date="1514168601748" expanded="false" signature="365:431" ph="/// Стартовая позиция ... " />
+            <marker date="1514168601748" expanded="false" signature="480:606" ph="/// Количество нажатий, переменная используется для отслеживания двойного нажатия ... " />
+            <marker date="1514168601748" expanded="false" signature="658:746" ph="/// Задержка, дельта между двойным нажатием ... " />
+            <marker date="1514168601748" expanded="false" signature="799:904" ph="/// Переменная засикающая время, для отслеживания переменных ... " />
+            <marker date="1514168601748" expanded="false" signature="945:1037" ph="/// Переменна для отслеживания перемещения мыши ... " />
+            <marker date="1514168601748" expanded="false" signature="1106:1174" ph="/// Перемещаемый объект ... " />
+            <marker date="1514168601748" expanded="false" signature="1220:1316" ph="/// Показывает статус объекта, перемещается или нет ... " />
+            <marker date="1514168601748" expanded="false" signature="1359:1437" ph="/// Отрабатывается перед 1 кадрос ... " />
+            <marker date="1514168601748" expanded="false" signature="1458:1578" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="1596:1679" ph="/// Отрабатывает каждые кадр отрисовки ... " />
+            <marker date="1514168601748" expanded="false" signature="1764:1981" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="1991:2077" ph="/// Отарабатывает в конце отрисовки кадра ... " />
+            <marker date="1514168601748" expanded="false" signature="2111:2177" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="2187:2296" ph="/// Проверяем двигается ли мышка ... " />
+            <marker date="1514168601748" expanded="true" signature="2324:2427" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="2446:2542" ph="/// Метод взаимодействия с объектами с помощью мыши ... " />
+            <marker date="1514168601748" expanded="false" signature="2579:4178" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="2664:2819" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="2730:2805" ph="{...}" />
+            <marker date="1514168601748" expanded="true" signature="2889:3051" ph="{...}" />
+            <marker date="1514168601748" expanded="true" signature="2953:3037" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="3125:3184" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="3198:4168" ph="DoubleTap" />
+            <marker date="1514168601748" expanded="false" signature="3581:4049" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="3658:3751" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="3814:4035" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="4086:4144" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="4197:4333" ph="/// Сенсорные экраны ... " />
+            <marker date="1514168601748" expanded="false" signature="4365:7183" ph="{...}" />
+            <marker date="1514168601748" expanded="true" signature="4451:6133" ph="Обработка нажатий пальцев" />
+            <marker date="1514168601748" expanded="true" signature="4618:6109" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="4788:4887" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="5033:5148" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="5333:5448" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="6147:7173" ph="DoubleTap" />
+            <marker date="1514168601748" expanded="false" signature="6486:7054" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="6563:6656" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="6719:7040" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7091:7149" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7193:7328" ph="/// Возвращает есть ли объект под пальцем в момент нажатия ... " />
+            <marker date="1514168601748" expanded="false" signature="7369:7736" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7539:7700" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7746:7821" ph="/// Возвращает объект на место ... " />
+            <marker date="1514168601748" expanded="false" signature="7848:8058" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7886:7938" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="8068:8170" ph="/// Перемещение объекта в позицию мыши или нажатия пальца ... " />
+            <marker date="1514168601748" expanded="false" signature="8207:8352" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="84" column="9" lean-forward="false" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+          <folding>
+            <marker date="1514142693064" expanded="false" signature="6:100" ph="..." />
+            <marker date="1514142693064" expanded="true" signature="114:2747" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="164:2745" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="179:234" ph="/// Кубики ... " />
+            <marker date="1514142693064" expanded="true" signature="279:334" ph="/// Шарики ... " />
+            <marker date="1514142693064" expanded="true" signature="446:923" ph="UI" />
+            <marker date="1514142693064" expanded="true" signature="554:843" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="615:833" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="747:819" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="941:1294" ph="Singleton" />
+            <marker date="1514142693064" expanded="true" signature="1038:1274" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1102:1191" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1307:1377" ph="/// увеличиваем счет на 1 ... " />
+            <marker date="1514142693064" expanded="true" signature="1408:1449" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1461:1532" ph="/// увеличиваем счет на 10 ... " />
+            <marker date="1514142693064" expanded="true" signature="1567:1615" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1645:1820" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="1859:2007" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="2017:2082" ph="/// Запустить таймер ... " />
+            <marker date="1514142693064" expanded="true" signature="2115:2174" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="2192:2346" ph="/// Отдельный поток для таймера. ... " />
+            <marker date="1514142693064" expanded="true" signature="2376:2727" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="2411:2717" ph="{...}" />
+            <marker date="1514142693064" expanded="true" signature="2594:2699" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Element.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1514142374916" expanded="false" signature="6:92" ph="..." />
+            <marker date="1514142374916" expanded="true" signature="107:855" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="148:853" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="354:447" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="402:443" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="465:536" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="583:850" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="623:846" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="708:770" ph="{...}" />
+            <marker date="1514142374916" expanded="true" signature="779:841" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1110">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1514142375001" expanded="false" signature="6:87" ph="..." />
+            <marker date="1514142375001" expanded="true" signature="101:4386" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="108:182" ph="/// Содержит в себе генераторы цветов ... " />
+            <marker date="1514142375001" expanded="true" signature="209:4384" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="224:302" ph="/// Заполняем массив из заданного ... " />
+            <marker date="1514142375001" expanded="true" signature="423:563" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="577:745" ph="/// Установить элементы в массив ... " />
+            <marker date="1514142375001" expanded="true" signature="812:1049" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="957:1039" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1059:1291" ph="/// возвращает сгенерированный лист цветов ... " />
+            <marker date="1514142375001" expanded="true" signature="1361:1973" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1422:1551" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1653:1738" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1839:1923" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="1983:2096" ph="/// Получаем цвет из заданого списка ... " />
+            <marker date="1514142375001" expanded="true" signature="2145:2338" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="2348:2537" ph="/// Сгенерировать один цвет ... " />
+            <marker date="1514142375001" expanded="true" signature="2721:3225" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="2811:2863" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="3243:3412" ph="/// Сгенерировать один цвет для колец ... " />
+            <marker date="1514142375001" expanded="true" signature="3497:3875" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="3885:4084" ph="/// Узнать есть ли такой цвет в листе ... " />
+            <marker date="1514142375001" expanded="true" signature="4146:4378" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="4196:4342" ph="{...}" />
+            <marker date="1514142375001" expanded="true" signature="4259:4328" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/ScriptableData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1514142375144" expanded="false" signature="6:173" ph="..." />
+            <marker date="1514142375144" expanded="true" signature="176:239" ph="/// Файл работы с настройками игры ... " />
+            <marker date="1514142375144" expanded="true" signature="368:2829" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="456:525" ph="/// Деактивация ScriptableObject ... " />
+            <marker date="1514142375144" expanded="true" signature="554:881" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="640:868" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="887:978" ph="/// Метод для проверки файла и последующего сохранения ... " />
+            <marker date="1514142375144" expanded="true" signature="998:1281" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="1084:1140" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="1153:1275" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="1291:1376" ph="/// Сохраняет в JSON ... " />
+            <marker date="1514142375144" expanded="true" signature="1402:1455" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="1461:1625" ph="/// Читаем Данный из JSON файла и заполняем ScriptableObject ... " />
+            <marker date="1514142375144" expanded="true" signature="1657:2433" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="2047:2427" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="2140:2316" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="2197:2298" ph="{...}" />
+            <marker date="1514142375144" expanded="true" signature="2439:2580" ph="/// Парсит обратнов Color из litJSON ... " />
+            <marker date="1514142375144" expanded="true" signature="2621:2822" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1514142693053" expanded="false" signature="6:52" ph="..." />
+            <marker date="1514142693053" expanded="true" signature="67:1058" ph="{...}" />
+            <marker date="1514142693053" expanded="true" signature="74:153" ph="/// Будет хранить в себе исходные данные.  ... " />
+            <marker date="1514142693053" expanded="true" signature="191:1056" ph="{...}" />
+            <marker date="1514142693053" expanded="true" signature="307:644" ph="Singleton" />
+            <marker date="1514142693053" expanded="true" signature="388:624" ph="{...}" />
+            <marker date="1514142693053" expanded="true" signature="452:541" ph="{...}" />
+            <marker date="1514142693053" expanded="true" signature="654:721" ph="/// Установка объектов ... " />
+            <marker date="1514142693053" expanded="true" signature="753:941" ph="{...}" />
+            <marker date="1514142693053" expanded="true" signature="821:895" ph="{...}" />
+            <marker date="1514142693053" expanded="true" signature="980:1050" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerConroller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="145" column="31" lean-forward="false" selection-start-line="145" selection-start-column="31" selection-end-line="145" selection-end-column="31" />
+          <folding>
+            <marker date="1514168601748" expanded="false" signature="6:91" ph="..." />
+            <marker date="1514168601748" expanded="true" signature="105:8360" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="112:184" ph="/// Класс описывающий работу игрока ... " />
+            <marker date="1514168601748" expanded="true" signature="233:8358" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="248:312" ph="/// Физический слой ... " />
+            <marker date="1514168601748" expanded="false" signature="365:431" ph="/// Стартовая позиция ... " />
+            <marker date="1514168601748" expanded="false" signature="480:606" ph="/// Количество нажатий, переменная используется для отслеживания двойного нажатия ... " />
+            <marker date="1514168601748" expanded="false" signature="658:746" ph="/// Задержка, дельта между двойным нажатием ... " />
+            <marker date="1514168601748" expanded="false" signature="799:904" ph="/// Переменная засикающая время, для отслеживания переменных ... " />
+            <marker date="1514168601748" expanded="false" signature="945:1037" ph="/// Переменна для отслеживания перемещения мыши ... " />
+            <marker date="1514168601748" expanded="false" signature="1106:1174" ph="/// Перемещаемый объект ... " />
+            <marker date="1514168601748" expanded="false" signature="1220:1316" ph="/// Показывает статус объекта, перемещается или нет ... " />
+            <marker date="1514168601748" expanded="false" signature="1359:1437" ph="/// Отрабатывается перед 1 кадрос ... " />
+            <marker date="1514168601748" expanded="false" signature="1458:1578" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="1596:1679" ph="/// Отрабатывает каждые кадр отрисовки ... " />
+            <marker date="1514168601748" expanded="false" signature="1764:1981" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="1991:2077" ph="/// Отарабатывает в конце отрисовки кадра ... " />
+            <marker date="1514168601748" expanded="false" signature="2111:2177" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="2187:2296" ph="/// Проверяем двигается ли мышка ... " />
+            <marker date="1514168601748" expanded="true" signature="2324:2427" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="2446:2542" ph="/// Метод взаимодействия с объектами с помощью мыши ... " />
+            <marker date="1514168601748" expanded="false" signature="2579:4178" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="2664:2819" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="2730:2805" ph="{...}" />
+            <marker date="1514168601748" expanded="true" signature="2889:3051" ph="{...}" />
+            <marker date="1514168601748" expanded="true" signature="2953:3037" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="3125:3184" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="3198:4168" ph="DoubleTap" />
+            <marker date="1514168601748" expanded="false" signature="3581:4049" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="3658:3751" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="3814:4035" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="4086:4144" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="4197:4333" ph="/// Сенсорные экраны ... " />
+            <marker date="1514168601748" expanded="false" signature="4365:7183" ph="{...}" />
+            <marker date="1514168601748" expanded="true" signature="4451:6133" ph="Обработка нажатий пальцев" />
+            <marker date="1514168601748" expanded="true" signature="4618:6109" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="4788:4887" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="5033:5148" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="5333:5448" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="6147:7173" ph="DoubleTap" />
+            <marker date="1514168601748" expanded="false" signature="6486:7054" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="6563:6656" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="6719:7040" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7091:7149" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7193:7328" ph="/// Возвращает есть ли объект под пальцем в момент нажатия ... " />
+            <marker date="1514168601748" expanded="false" signature="7369:7736" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7539:7700" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7746:7821" ph="/// Возвращает объект на место ... " />
+            <marker date="1514168601748" expanded="false" signature="7848:8058" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="7886:7938" ph="{...}" />
+            <marker date="1514168601748" expanded="false" signature="8068:8170" ph="/// Перемещение объекта в позицию мыши или нажатия пальца ... " />
+            <marker date="1514168601748" expanded="false" signature="8207:8352" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CircleTimer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="68" column="8" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+          <folding>
+            <marker date="1514170050488" expanded="false" signature="6:66" ph="..." />
+            <marker date="1514170050488" expanded="true" signature="80:2236" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="87:146" ph="/// Кругляшки, таймеры ... " />
+            <marker date="1514170050488" expanded="true" signature="190:2234" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="205:262" ph="/// Картинка ... " />
+            <marker date="1514170050488" expanded="false" signature="357:459" ph="/// Переменная для манипулирования переменной Fill Amount ... " />
+            <marker date="1514170050488" expanded="false" signature="505:616" ph="/// Получить число рандомное число ... " />
+            <marker date="1514170050488" expanded="false" signature="641:851" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="870:951" ph="/// Свойство для значения FillAmount ... " />
+            <marker date="1514170050488" expanded="false" signature="981:1166" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="1044:1156" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="1176:1246" ph="/// Отрабатывает в начале ... " />
+            <marker date="1514170050488" expanded="false" signature="1275:1319" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="1337:1402" ph="/// Включить таймеры ... " />
+            <marker date="1514170050488" expanded="false" signature="1427:1557" ph="{...}" />
+            <marker date="1514170050488" expanded="false" signature="1576:1775" ph="/// Отдельный поток, для таймера, в кончце работы перезагружается и меняет цвет. ... " />
+            <marker date="1514170050488" expanded="true" signature="1819:2227" ph="{...}" />
+            <marker date="1514170050488" expanded="true" signature="1854:2217" ph="{...}" />
+            <marker date="1514170050488" expanded="true" signature="1997:2187" ph="{...}" />
           </folding>
         </state>
       </provider>
